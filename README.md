@@ -29,7 +29,7 @@
 * Hệ quản trị cơ sở dữ liệu Microsoft SQL Server.
 
 ## Tài chính
-* Kinh phí dự kiến: $100,000.
+* Kinh phí dự kiến: 20,000,000 đ.
 
 ## Vai trò của các thành viên trong nhóm Scrum
 * *Nguyễn Thị Dung - Product Owner (Chủ sản phẩm)*
