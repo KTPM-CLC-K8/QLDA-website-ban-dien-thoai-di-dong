@@ -7,7 +7,7 @@
             Cập nhật điện thoại
         </div>
         <div class="panel-body">
-            <asp:GridView CssClass="grid-view" RowStyle-CssClass ID="gr1" runat="server" Width="100%" HorizontalAlign="Center" AutoGenerateColumns="false" AllowPaging="true" OnPageIndexChanged="page_changed" OnPageIndexChanging="page_changing" PageSize="10" EditRowStyle-BorderStyle="NotSet">
+            <asp:GridView CssClass="grid-view" RowStyle-CssClass="grid-view-row" ID="gr1" runat="server" Width="100%" HorizontalAlign="Center" AutoGenerateColumns="false" AllowPaging="true" OnPageIndexChanged="page_changed" OnPageIndexChanging="page_changing" PageSize="10" EditRowStyle-BorderStyle="NotSet">
                 <Columns>
                     <asp:TemplateField ItemStyle-CssClass="item-gridview" HeaderStyle-CssClass="text-header-gridview" HeaderText="Xóa">
                         <ItemTemplate>
@@ -136,83 +136,85 @@
                                 <tr>
                                     <td>Số lượng:
                                         <br />
-                                        <table id="number-mobile">
-                                            <tr>
-                                                <td>
-                                                    <div style="background-color: white; height: 20px; width: 20px; float: left"></div>
-                                                    <p>
-                                                        &nbsp;<asp:Label ID="white" runat="server">none</asp:Label>
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div style="background-color: black; height: 20px; width: 20px; float: left"></div>
-                                                    <p>
-                                                        &nbsp;<asp:Label ID="black" runat="server">none</asp:Label>
-                                                    </p>
-                                                </td>
-                                                <td>
-                                                    <div style="background-color: pink; height: 20px; width: 20px; float: left"></div>
-                                                    <p>
-                                                        &nbsp;<asp:Label ID="pink" runat="server">none</asp:Label>
-                                                    </p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div style="background-color: yellow; height: 20px; width: 20px; float: left"></div>
-                                                    <p>
-                                                        &nbsp;<asp:Label ID="yellow" runat="server">none</asp:Label>
-                                                    </p>
-                                                    </p>  </td>
-                                                <td>
-                                                    <div style="background-color: gold; height: 20px; width: 20px; float: left"></div>
-                                                    <p>
-                                                        &nbsp;<asp:Label ID="gold" runat="server">none</asp:Label>
-                                                    </p>
-                                                    </p> </td>
-                                                <td>
-                                                    <div style="background-color: silver; height: 20px; width: 20px; float: left"></div>
-                                                    <p>
-                                                        &nbsp;<asp:Label ID="silver" runat="server">none</asp:Label>
-                                                    </p>
-                                                    </p></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div style="background-color: green; height: 20px; width: 20px; float: left"></div>
-                                                    <p>
-                                                        &nbsp;<asp:Label ID="green" runat="server">none</asp:Label>
-                                                    </p>
-                                                    </p></td>
-                                                <td>
-                                                    <div style="background-color: cyan; height: 20px; width: 20px; float: left"></div>
-                                                    <p>
-                                                        &nbsp;<asp:Label ID="cyan" runat="server">none</asp:Label>
-                                                    </p>
-                                                    </p> </td>
-                                                <td>
-                                                    <div style="background-color: orange; height: 20px; width: 20px; float: left"></div>
-                                                    <p>
-                                                        &nbsp;<asp:Label ID="orange" runat="server">none</asp:Label>
-                                                    </p>
-                                                    </p></td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <div style="background-color: grey; height: 20px; width: 20px; float: left"></div>
-                                                    <p>
-                                                        &nbsp;<asp:Label ID="grey" runat="server">none</asp:Label>
-                                                    </p>
-                                                    </p></td>
-                                                <td>
-                                                    <div style="background-color: blue; height: 20px; width: 20px; float: left"></div>
-                                                    <p>
-                                                        &nbsp;<asp:Label ID="blue" runat="server">none</asp:Label>
-                                                    </p>
-                                                    </p></td>
+                                        <div id="table-padding">
+                                            <table id="number-mobile">
+                                                <tr>
+                                                    <td>
+                                                        <div style="background-color: white; height: 20px; width: 20px; float: left"></div>
+                                                        <p>
+                                                            &nbsp;<asp:Label ID="white" runat="server">none</asp:Label>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <div style="background-color: black; height: 20px; width: 20px; float: left"></div>
+                                                        <p>
+                                                            &nbsp;<asp:Label ID="black" runat="server">none</asp:Label>
+                                                        </p>
+                                                    </td>
+                                                    <td>
+                                                        <div style="background-color: pink; height: 20px; width: 20px; float: left"></div>
+                                                        <p>
+                                                            &nbsp;<asp:Label ID="pink" runat="server">none</asp:Label>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div style="background-color: yellow; height: 20px; width: 20px; float: left"></div>
+                                                        <p>
+                                                            &nbsp;<asp:Label ID="yellow" runat="server">none</asp:Label>
+                                                        </p>
+                                                        </p>  </td>
+                                                    <td>
+                                                        <div style="background-color: gold; height: 20px; width: 20px; float: left"></div>
+                                                        <p>
+                                                            &nbsp;<asp:Label ID="gold" runat="server">none</asp:Label>
+                                                        </p>
+                                                        </p> </td>
+                                                    <td>
+                                                        <div style="background-color: silver; height: 20px; width: 20px; float: left"></div>
+                                                        <p>
+                                                            &nbsp;<asp:Label ID="silver" runat="server">none</asp:Label>
+                                                        </p>
+                                                        </p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div style="background-color: green; height: 20px; width: 20px; float: left"></div>
+                                                        <p>
+                                                            &nbsp;<asp:Label ID="green" runat="server">none</asp:Label>
+                                                        </p>
+                                                        </p></td>
+                                                    <td>
+                                                        <div style="background-color: cyan; height: 20px; width: 20px; float: left"></div>
+                                                        <p>
+                                                            &nbsp;<asp:Label ID="cyan" runat="server">none</asp:Label>
+                                                        </p>
+                                                        </p> </td>
+                                                    <td>
+                                                        <div style="background-color: orange; height: 20px; width: 20px; float: left"></div>
+                                                        <p>
+                                                            &nbsp;<asp:Label ID="orange" runat="server">none</asp:Label>
+                                                        </p>
+                                                        </p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div style="background-color: grey; height: 20px; width: 20px; float: left"></div>
+                                                        <p>
+                                                            &nbsp;<asp:Label ID="grey" runat="server">none</asp:Label>
+                                                        </p>
+                                                        </p></td>
+                                                    <td>
+                                                        <div style="background-color: blue; height: 20px; width: 20px; float: left"></div>
+                                                        <p>
+                                                            &nbsp;<asp:Label ID="blue" runat="server">none</asp:Label>
+                                                        </p>
+                                                        </p></td>
 
-                                            </tr>
-                                        </table>
+                                                </tr>
+                                            </table>
+                                        </div>
                                     </td>
                                     <td>Loại mh: &nbsp;<asp:Label ID="typeScreen" runat="server">none</asp:Label>
                                     </td>
@@ -223,7 +225,7 @@
                                     <td colspan="4">Giới thiệu:
                                         <br />
 
-                                        <asp:Image ID="imgIntro" CssClass="xxx" ImageUrl="~/Resource/Admin icon/img-mobile-error.png" AlternateText="img" Height="150px" Width="150px" runat="server" /><br />
+                                        <asp:Image ID="imgIntro" CssClass="img-intro-mobile" ImageUrl="~/Resource/Admin icon/img-mobile-error.png" AlternateText="img" Height="150px" Width="150px" runat="server" /><br />
                                         <asp:Label ID="articleIntro" runat="server">none</asp:Label>
 
                                     </td>
@@ -242,10 +244,4 @@
             </div>
         </ContentTemplate>
     </asp:UpdatePanel>
-
-
-
-
-
-
 </asp:Content>
