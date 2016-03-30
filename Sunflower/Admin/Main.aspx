@@ -7,7 +7,7 @@
             Cập nhật điện thoại
         </div>
         <div class="panel-body">
-            <asp:GridView CssClass="grid-view" ID="gr1" runat="server" Width="100%" HorizontalAlign="Center" AutoGenerateColumns="false" AllowPaging="true" OnPageIndexChanged="page_changed" OnPageIndexChanging="page_changing" PageSize="10" EditRowStyle-BorderStyle="NotSet">
+            <asp:GridView CssClass="grid-view" RowStyle-CssClass ID="gr1" runat="server" Width="100%" HorizontalAlign="Center" AutoGenerateColumns="false" AllowPaging="true" OnPageIndexChanged="page_changed" OnPageIndexChanging="page_changing" PageSize="10" EditRowStyle-BorderStyle="NotSet">
                 <Columns>
                     <asp:TemplateField ItemStyle-CssClass="item-gridview" HeaderStyle-CssClass="text-header-gridview" HeaderText="Xóa">
                         <ItemTemplate>
