@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="Sunflower.Admin.admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Trang quản trị Admin</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../Design/bootstrap-3.3.6-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Design/Css/admin.css" />
+    <link rel="stylesheet" href="../Design/Css/jquery-ui-1.9.2.custom.css"
+    <script src="../Design/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script src="../Design/Js/jquery-1.12.2.min.js"></script>
+    <script src="../Design/Js/jquery-ui-1.9.2.custom.js"></script>
+     <script>
+        $(function () {
+            $('.item').attr('title', function () {
+                return $(this).next('.statusRollup').remove().html()
+            });
+            $(document).tooltip();
+         });
+    </script>
+    
+</head>
+<body>
+    <div >
+        <form id="form1" runat="server">
+        <div id="header">
+            <p id="text-header"> Quản lý hệ thống </p>
+             
+            <div id="control-header">
+                
+                <img id="img-header" src="../Resource/Admin icon/admin-icon.png" />
+                <asp:Label ID="user_account" runat="server" CssClass="text-user"> @admin</asp:Label>
+                <asp:Button ID="bt" Text="Đăng xuất" CssClass="bt-logout" runat="server" />
+                  
+            </div>
+        </div>
+        <div id="panel">
+            <ul>
+                <li><a href="#">&hybull; Quản lý điện thoại</a> </li>
+                <li><a href="#">&hybull; Quản lý phụ kiện</a> </li>
+                <li><a href="#">&hybull; Quản lý bài viết</a> </li>
+                <li><a href="#">&hybull; Quản lý đặt hàng</a></li>
+                <li><a href="#">&hybull; Quản lý khách hàng</a> </li>
+            </ul>
+           
+            <br />
+            <p style="color:#FFFFFF; font-size:15px; text-align:center; margin-top:30px;">
+                 <img src="../Resource/Admin icon/Support.png" width="60" height="60" alt="img" />
+                <br />
+                Liên hệ <br />
+                Mr.Son: 01688888888 <br />
+                Mr.Kien: 01277777777<br />
+                Ms.Dung: 0987654321<br />
+                Khi gặp sự cố hệ thống
+            </p>
+
+
+        </div>
+        
+   
+    <div id="content">
+         <asp:ScriptManager ID="ScriptManager2" runat="server">
+    </asp:ScriptManager>
+    <script src="../Design/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    <script src="../Design/Js/jquery-1.12.2.min.js"></script>
+         <script src="../Design/Js/jquery-ui-1.9.2.custom.js"></script>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+        <div id="footer">
+            <p style="color:#FFFFFF; font-size:16px; text-align:center">&copy; Ha Noi University Of Industry &copy;</p>
+        </div>
+    </div>
+
+</body>
+</html>
