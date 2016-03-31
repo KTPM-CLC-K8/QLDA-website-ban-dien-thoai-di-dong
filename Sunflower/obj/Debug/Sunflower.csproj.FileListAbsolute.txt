@@ -4,3 +4,19 @@ D:\web\ASP .NET\btl\Sunflower\Sunflower\bin\Sunflower.pdb
 D:\web\ASP .NET\btl\Sunflower\Sunflower\obj\Debug\Sunflower.csprojResolveAssemblyReference.cache
 D:\web\ASP .NET\btl\Sunflower\Sunflower\obj\Debug\Sunflower.dll
 D:\web\ASP .NET\btl\Sunflower\Sunflower\obj\Debug\Sunflower.pdb
+C:\Users\Le Son\Desktop\New folder\Sunflower\bin\Sunflower.dll.config
+C:\Users\Le Son\Desktop\New folder\Sunflower\bin\Sunflower.dll
+C:\Users\Le Son\Desktop\New folder\Sunflower\bin\Sunflower.pdb
+C:\Users\Le Son\Desktop\New folder\Sunflower\obj\Debug\Sunflower.csprojResolveAssemblyReference.cache
+C:\Users\Le Son\Desktop\New folder\Sunflower\obj\Debug\Sunflower.dll
+C:\Users\Le Son\Desktop\New folder\Sunflower\obj\Debug\Sunflower.pdb
+D:\web\ASP .NET\btl\Sunflower-building\Sunflower\bin\Sunflower.dll.config
+D:\web\ASP .NET\btl\Sunflower-building\Sunflower\bin\Sunflower.dll
+D:\web\ASP .NET\btl\Sunflower-building\Sunflower\bin\Sunflower.pdb
+D:\web\ASP .NET\btl\Sunflower-building\Sunflower\obj\Debug\Sunflower.csprojResolveAssemblyReference.cache
+D:\web\ASP .NET\btl\Sunflower-building\Sunflower\obj\Debug\Sunflower.dll
+D:\web\ASP .NET\btl\Sunflower-building\Sunflower\obj\Debug\Sunflower.pdb
+D:\web\ASP .NET\btl\Sunflower-building\Sunflower\bin\BUS.dll
+D:\web\ASP .NET\btl\Sunflower-building\Sunflower\bin\DAL.dll
+D:\web\ASP .NET\btl\Sunflower-building\Sunflower\bin\BUS.pdb
+D:\web\ASP .NET\btl\Sunflower-building\Sunflower\bin\DAL.pdb

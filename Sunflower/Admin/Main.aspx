@@ -93,12 +93,12 @@
                                     <td><b>Dung lượng pin:</b> &nbsp;<asp:Label ID="capacityPin" runat="server">none</asp:Label></td>
                                 </tr>
                                 <tr>
-                                   
+
                                     <td><b>Ram:</b> &nbsp;<asp:Label ID="ram" runat="server">none</asp:Label></td>
                                     <td><b>Kích thước mh:</b> &nbsp;<asp:Label ID="sizeScreen" runat="server">none</asp:Label></td>
                                     <td><b>Loại mh:</b> &nbsp;<asp:Label ID="typeScreen" runat="server">none</asp:Label>
                                     </td>
-                                     <td><b>Loại pin:</b> &nbsp;<asp:Label ID="typePin" runat="server">none</asp:Label></td>
+                                    <td><b>Loại pin:</b> &nbsp;<asp:Label ID="typePin" runat="server">none</asp:Label></td>
                                 </tr>
                                 <tr>
                                     <td><b>Giá:</b> &nbsp;<asp:Label ID="money" runat="server">none</asp:Label></td>
@@ -118,9 +118,9 @@
                                     <td><b>Số khe cắm sim:</b> &nbsp;<asp:Label ID="numberSim" runat="server">none</asp:Label></td>
                                     <td><b>Hỗ trợ bộ nhớ cao nhất:</b> &nbsp;<asp:Label ID="maxSupportMemory" runat="server">none</asp:Label></td>
                                 </tr>
-                                 <tr>
+                                <tr>
 
-                                   <td colspan="4"><b>Video:</b> &nbsp;<asp:Label ID="video" runat="server">none</asp:Label></td>
+                                    <td colspan="4"><b>Video:</b> &nbsp;<asp:Label ID="video" runat="server">none</asp:Label></td>
 
                                 </tr>
                                 <tr>
@@ -206,7 +206,7 @@
                                             </table>
                                         </div>
                                     </td>
-                                     <td colspan="2"><b>Ảnh:</b><br />
+                                    <td colspan="2"><b>Ảnh:</b><br />
                                         <table id="table-img-mobile">
                                             <tr>
                                                 <td>
@@ -224,10 +224,10 @@
                                             </tr>
                                         </table>
                                     </td>
-                                   
+
 
                                 </tr>
-                               
+
                                 <tr>
                                     <td colspan="4"><b>Giới thiệu:</b>
                                         <br />
@@ -238,9 +238,6 @@
                                     </td>
                                 </tr>
                             </table>
-
-
-
 
                         </div>
                         <div class="modal-footer">

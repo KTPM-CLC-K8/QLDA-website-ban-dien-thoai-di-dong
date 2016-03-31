@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunflower", "Sunflower\Sunflower.csproj", "{3611AF4B-DDA3-4C59-83BF-EE212C7651D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{938F035A-2DAE-4EF8-B58F-05619D4D859A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BUS", "BUS\BUS.csproj", "{6738EEA3-D10E-48C4-ACBE-B469E37D022D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3611AF4B-DDA3-4C59-83BF-EE212C7651D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3611AF4B-DDA3-4C59-83BF-EE212C7651D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3611AF4B-DDA3-4C59-83BF-EE212C7651D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938F035A-2DAE-4EF8-B58F-05619D4D859A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938F035A-2DAE-4EF8-B58F-05619D4D859A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938F035A-2DAE-4EF8-B58F-05619D4D859A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938F035A-2DAE-4EF8-B58F-05619D4D859A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6738EEA3-D10E-48C4-ACBE-B469E37D022D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6738EEA3-D10E-48C4-ACBE-B469E37D022D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6738EEA3-D10E-48C4-ACBE-B469E37D022D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6738EEA3-D10E-48C4-ACBE-B469E37D022D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
