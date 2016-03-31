@@ -73,58 +73,58 @@
                         <div class="modal-body">
                             <table id="show-detail-mobile" border="1">
                                 <tr>
-                                    <td>Mã DT:
+                                    <td><b>Mã DT:</b>
                                         <asp:Label ID="idMobile" runat="server">none</asp:Label></td>
-                                    <td>Chipset:
+                                    <td><b>Chipset:</b>
                                         <asp:Label ID="chipset" runat="server">none</asp:Label></td>
-                                    <td>Màu màn hình: &nbsp;<asp:Label ID="colorScreen" runat="server">none</asp:Label></td>
-                                    <td>Music: &nbsp;<asp:Label ID="music" runat="server">none</asp:Label></td>
+                                    <td><b>Màu màn hình:</b> &nbsp;<asp:Label ID="colorScreen" runat="server">none</asp:Label></td>
+                                    <td><b>Music:</b> &nbsp;<asp:Label ID="music" runat="server">none</asp:Label></td>
                                 </tr>
                                 <tr>
-                                    <td>Tên DT: &nbsp;<asp:Label ID="mobileName" runat="server">none</asp:Label></td>
-                                    <td>CPU: &nbsp;<asp:Label ID="cpu" runat="server">none</asp:Label></td>
-                                    <td>Chuẩn màn hình: &nbsp;<asp:Label ID="standardScreen" runat="server">none</asp:Label></td>
-                                    <td>Ghi âm: &nbsp;<asp:Label ID="record" runat="server">none</asp:Label></td>
+                                    <td><b>Tên DT:</b> &nbsp;<asp:Label ID="mobileName" runat="server">none</asp:Label></td>
+                                    <td><b>CPU:</b> &nbsp;<asp:Label ID="cpu" runat="server">none</asp:Label></td>
+                                    <td><b>Chuẩn màn hình:</b> &nbsp;<asp:Label ID="standardScreen" runat="server">none</asp:Label></td>
+                                    <td><b>Ghi âm:</b> &nbsp;<asp:Label ID="record" runat="server">none</asp:Label></td>
                                 </tr>
                                 <tr>
-                                    <td>NSX: &nbsp;<asp:Label ID="company" runat="server">none</asp:Label></td>
-                                    <td>Đồ họa: &nbsp;<asp:Label ID="graphics" runat="server">none</asp:Label></td>
-                                    <td>Độ phân giải: &nbsp;<asp:Label ID="resolution" runat="server">none</asp:Label></td>
-                                    <td>Dung lượng pin: &nbsp;<asp:Label ID="capacityPin" runat="server">none</asp:Label></td>
+                                    <td><b>NSX:</b> &nbsp;<asp:Label ID="company" runat="server">none</asp:Label></td>
+                                    <td><b>Đồ họa:</b> &nbsp;<asp:Label ID="graphics" runat="server">none</asp:Label></td>
+                                    <td><b>Độ phân giải:</b> &nbsp;<asp:Label ID="resolution" runat="server">none</asp:Label></td>
+                                    <td><b>Dung lượng pin:</b> &nbsp;<asp:Label ID="capacityPin" runat="server">none</asp:Label></td>
                                 </tr>
                                 <tr>
                                    
-                                    <td>Ram: &nbsp;<asp:Label ID="ram" runat="server">none</asp:Label></td>
-                                    <td>Kích thước mh: &nbsp;<asp:Label ID="sizeScreen" runat="server">none</asp:Label></td>
-                                    <td>Loại mh: &nbsp;<asp:Label ID="typeScreen" runat="server">none</asp:Label>
+                                    <td><b>Ram:</b> &nbsp;<asp:Label ID="ram" runat="server">none</asp:Label></td>
+                                    <td><b>Kích thước mh:</b> &nbsp;<asp:Label ID="sizeScreen" runat="server">none</asp:Label></td>
+                                    <td><b>Loại mh:</b> &nbsp;<asp:Label ID="typeScreen" runat="server">none</asp:Label>
                                     </td>
-                                     <td>Loại pin: &nbsp;<asp:Label ID="typePin" runat="server">none</asp:Label></td>
+                                     <td><b>Loại pin:</b> &nbsp;<asp:Label ID="typePin" runat="server">none</asp:Label></td>
                                 </tr>
                                 <tr>
-                                    <td>Giá: &nbsp;<asp:Label ID="money" runat="server">none</asp:Label></td>
-                                    <td>HDH: &nbsp;<asp:Label ID="os" runat="server">none</asp:Label></td>
-                                    <td>Cảm ứng: &nbsp;<asp:Label ID="induction" runat="server">none</asp:Label></td>
-                                    <td>Danh bạ: &nbsp;<asp:Label ID="contact" runat="server">none</asp:Label></td>
+                                    <td><b>Giá:</b> &nbsp;<asp:Label ID="money" runat="server">none</asp:Label></td>
+                                    <td><b>HDH:</b> &nbsp;<asp:Label ID="os" runat="server">none</asp:Label></td>
+                                    <td><b>Cảm ứng:</b> &nbsp;<asp:Label ID="induction" runat="server">none</asp:Label></td>
+                                    <td><b>Danh bạ:</b> &nbsp;<asp:Label ID="contact" runat="server">none</asp:Label></td>
                                 </tr>
                                 <tr>
-                                    <td>Bảo hành: &nbsp;<asp:Label ID="guarantee" runat="server">none</asp:Label></td>
-                                    <td>Camera sau: &nbsp;<asp:Label ID="priSim" runat="server">none</asp:Label></td>
-                                    <td>Loại sim: &nbsp;<asp:Label ID="typeSim" runat="server">none</asp:Label></td>
-                                    <td>Bộ nhớ trong: &nbsp;<asp:Label ID="interMemory" runat="server">none</asp:Label></td>
+                                    <td><b>Bảo hành:</b> &nbsp;<asp:Label ID="guarantee" runat="server">none</asp:Label></td>
+                                    <td><b>Camera sau:</b> &nbsp;<asp:Label ID="priSim" runat="server">none</asp:Label></td>
+                                    <td><b>Loại sim:</b> &nbsp;<asp:Label ID="typeSim" runat="server">none</asp:Label></td>
+                                    <td><b>Bộ nhớ trong:</b> &nbsp;<asp:Label ID="interMemory" runat="server">none</asp:Label></td>
                                 </tr>
                                 <tr>
-                                    <td>Giảm giá: &nbsp;<asp:Label ID="saleOff" runat="server">none</asp:Label></td>
-                                    <td>Camera trước: &nbsp;<asp:Label ID="secondCam" runat="server">none</asp:Label></td>
-                                    <td>Số khe cắm sim: &nbsp;<asp:Label ID="numberSim" runat="server">none</asp:Label></td>
-                                    <td>Hỗ trợ bộ nhớ cao nhất: &nbsp;<asp:Label ID="maxSupportMemory" runat="server">none</asp:Label></td>
+                                    <td><b>Giảm giá:</b> &nbsp;<asp:Label ID="saleOff" runat="server">none</asp:Label></td>
+                                    <td><b>Camera trước:</b> &nbsp;<asp:Label ID="secondCam" runat="server">none</asp:Label></td>
+                                    <td><b>Số khe cắm sim:</b> &nbsp;<asp:Label ID="numberSim" runat="server">none</asp:Label></td>
+                                    <td><b>Hỗ trợ bộ nhớ cao nhất:</b> &nbsp;<asp:Label ID="maxSupportMemory" runat="server">none</asp:Label></td>
                                 </tr>
                                  <tr>
 
-                                   <td colspan="4">Video: &nbsp;<asp:Label ID="video" runat="server">none</asp:Label></td>
+                                   <td colspan="4"><b>Video:</b> &nbsp;<asp:Label ID="video" runat="server">none</asp:Label></td>
 
                                 </tr>
                                 <tr>
-                                    <td colspan="2">Số lượng:
+                                    <td colspan="2"><b>Số lượng:</b>
                                         <br />
                                         <div id="table-padding">
                                             <table id="number-mobile">
@@ -206,7 +206,7 @@
                                             </table>
                                         </div>
                                     </td>
-                                     <td colspan="2">Ảnh:<br />
+                                     <td colspan="2"><b>Ảnh:</b><br />
                                         <table id="table-img-mobile">
                                             <tr>
                                                 <td>
@@ -229,7 +229,7 @@
                                 </tr>
                                
                                 <tr>
-                                    <td colspan="4">Giới thiệu:
+                                    <td colspan="4"><b>Giới thiệu:</b>
                                         <br />
 
                                         <asp:Image ID="imgIntro" CssClass="img-intro-mobile" ImageUrl="~/Resource/Admin icon/img-mobile-error.png" AlternateText="img" Height="150px" Width="150px" runat="server" /><br />
