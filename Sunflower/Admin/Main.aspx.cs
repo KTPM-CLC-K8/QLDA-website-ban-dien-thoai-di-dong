@@ -28,5 +28,10 @@ namespace Sunflower.Admin
             gr1.PageIndex = e.NewPageIndex;
             gr1.DataBind();
         }
+
+        protected void gr1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
