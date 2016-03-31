@@ -1,0 +1,275 @@
+﻿body {
+}
+
+#banner {
+    height: 255px;
+    width: 1140px;
+    margin-top: 10px;
+}
+
+.col-md-12 ul {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #64B5F6;
+}
+
+ul li a {
+    color: white;
+}
+
+.anh {
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #64B5F6;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+}
+
+.col-md-3 {
+    margin-top: 15px;
+}
+
+.btn-info {
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.dropdown-menu.columns-2 {
+    width: 330px;
+}
+
+.multi-column-dropdown {
+    list-style-type: none;
+}
+
+    .multi-column-dropdown li a:hover {
+        text-decoration: none;
+        color: #ff0000;
+        background-color: #f6f6f2;
+        font-weight: bold;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .multi-column-dropdown li {
+        text-align: center;
+    }
+
+.multi-column-dropdown {
+    padding: 0px;
+}
+
+.dropdown-menu.phukien li a {
+    color: #fbf5f5;
+}
+
+    .dropdown-menu.phukien li a:hover {
+        color: #ff0000;
+        background-color: #f6f6f2;
+        font-weight: bold;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+#phukien {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dropdown-menu li {
+    text-align: center;
+}
+
+.panel-title {
+    text-align: center;
+}
+
+#TKchonhang {
+    margin-right: 10px;
+}
+
+#tkchung {
+    width: 228px;
+}
+
+#DropDownListChonHang {
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 15px;
+}
+
+#TKgiatu {
+    margin-right: 40px;
+}
+
+#DropDownListGiaTu {
+    padding-left: 22px;
+    padding-right: 22px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#TKgiaden {
+    margin-right: 30px;
+}
+
+#DropDownListGiaDen {
+    padding-left: 22px;
+    padding-right: 22px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.GiaTu {
+    margin-top: 10px;
+}
+
+.GiaDen {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.khuyenmai a:hover {
+    text-decoration: none;
+}
+
+.panel-default.khuyenmai {
+    margin-top: -40px;
+}
+
+.LienHe {
+    margin-left: 30px;
+}
+
+    .LienHe img {
+        padding-right: 10px;
+    }
+
+.col-md-6 {
+    margin-top: 15px;
+    padding: 0;
+}
+
+#Slide {
+    width: 600px;
+    margin-left: -22px;
+}
+
+.QuangCao1 {
+    margin-top: -55px;
+}
+
+    .QuangCao1 img {
+        width: 260px;
+    }
+
+.QuangCao2 {
+    margin-top: 6px;
+}
+
+    .QuangCao2 img {
+        width: 260px;
+        height: 195px;
+    }
+
+.PhoneHot h4 {
+    color: #ff6a00;
+    font-weight: bold;
+}
+
+.PhoneHot {
+    margin-top: 40px;
+}
+
+.col-sm-4 {
+    border: 1px solid #efe8e8;
+    height: 212px;
+}
+
+label {
+    color: #ff0000;
+}
+
+.PhoneMoi h4 {
+    color: #ff6a00;
+    font-weight: bold;
+}
+
+.PhuKien h4 {
+    color: #ff6a00;
+    font-weight: bold;
+}
+
+.TinTuc {
+    margin-left: 40px;
+}
+
+    .TinTuc a:hover {
+        text-decoration: none;
+    }
+.tieudett {
+    color: #040404;
+}
+
+    .tieudett:hover {
+        color: #1b26f3;
+        text-decoration: none;
+    }
+
+.xemthem2 a {
+    color: #ff0000;
+    margin-left: 50px;
+}
+
+.xemthem1 a {
+    color: #ff0000;
+    margin-left: 70px;
+}
+
+.tieudekm {
+    color: #040404;
+}
+
+    .tieudekm:hover {
+        color: #1b26f3;
+        text-decoration: none;
+    }
+
+.km {
+    margin-left: 35px;
+}
+
+.TinTuc h4 {
+    color: #ff6a00;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

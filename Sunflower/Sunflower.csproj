@@ -85,8 +85,51 @@
     <Content Include="Design\bootstrap-3.3.6-dist\js\npm.js" />
     <Content Include="Design\Css\admin.css" />
     <Content Include="Design\Css\jquery-ui-1.9.2.custom.css" />
+    <Content Include="Design\Css\trangchu.css" />
     <Content Include="Design\Js\jquery-1.12.2.min.js" />
     <Content Include="Design\Js\jquery-ui-1.9.2.custom.js" />
+    <Content Include="Resource\Trang chu\admin.png" />
+    <Content Include="Resource\Trang chu\anh1.png" />
+    <Content Include="Resource\Trang chu\anh2.png" />
+    <Content Include="Resource\Trang chu\anh3.jpg" />
+    <Content Include="Resource\Trang chu\anh4.jpg" />
+    <Content Include="Resource\Trang chu\anh5.jpg" />
+    <Content Include="Resource\Trang chu\anh6.png" />
+    <Content Include="Resource\Trang chu\anh7.png" />
+    <Content Include="Resource\Trang chu\anh8.png" />
+    <Content Include="Resource\Trang chu\anh9.png" />
+    <Content Include="Resource\Trang chu\banner-iphone_zps82e8d8dd.png" />
+    <Content Include="Resource\Trang chu\banner-khuyen-mai.png" />
+    <Content Include="Resource\Trang chu\banner.gif" />
+    <Content Include="Resource\Trang chu\banner1.gif" />
+    <Content Include="Resource\Trang chu\banner2.gif" />
+    <Content Include="Resource\Trang chu\cart.png" />
+    <Content Include="Resource\Trang chu\email.png" />
+    <Content Include="Resource\Trang chu\gioithieu.png" />
+    <Content Include="Resource\Trang chu\headphone.png" />
+    <Content Include="Resource\Trang chu\home.png" />
+    <Content Include="Resource\Trang chu\mobile.png" />
+    <Content Include="Resource\Trang chu\news.png" />
+    <Content Include="Resource\Trang chu\phone_lienhe.png" />
+    <Content Include="Resource\Trang chu\pk1.jpg" />
+    <Content Include="Resource\Trang chu\pk2.jpg" />
+    <Content Include="Resource\Trang chu\pk3.jpg" />
+    <Content Include="Resource\Trang chu\pk4.jpg" />
+    <Content Include="Resource\Trang chu\pk5.png" />
+    <Content Include="Resource\Trang chu\pk6.jpg" />
+    <Content Include="Resource\Trang chu\quangcao1.png" />
+    <Content Include="Resource\Trang chu\quangcao2.png" />
+    <Content Include="Resource\Trang chu\sale.png" />
+    <Content Include="Resource\Trang chu\slide1.png" />
+    <Content Include="Resource\Trang chu\slide2.png" />
+    <Content Include="Resource\Trang chu\slide3.png" />
+    <Content Include="Resource\Trang chu\slide4.png" />
+    <Content Include="Resource\Trang chu\slide5.png" />
+    <Content Include="Resource\Trang chu\top_banner.jpg" />
+    <Content Include="Resource\Trang chu\tra-gop-0-new.png" />
+    <Content Include="Resource\Trang chu\ttuc1.jpg" />
+    <Content Include="Resource\Trang chu\ttuc2.jpg" />
+    <Content Include="Resource\Trang chu\ttuc3.jpg" />
     <Content Include="Resource\Admin icon\admin-icon.png" />
     <Content Include="Resource\Admin icon\Exit.png" />
     <Content Include="Resource\Admin icon\img-mobile-error.png" />
@@ -119,6 +162,9 @@
       <Project>{6738eea3-d10e-48c4-acbe-b469e37d022d}</Project>
       <Name>BUS</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Trang chủ\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
