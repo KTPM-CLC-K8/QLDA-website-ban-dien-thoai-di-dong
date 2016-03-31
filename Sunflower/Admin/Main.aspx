@@ -93,27 +93,12 @@
                                     <td>Dung lượng pin: &nbsp;<asp:Label ID="capacityPin" runat="server">none</asp:Label></td>
                                 </tr>
                                 <tr>
-                                    <td>Ảnh:<br />
-                                        <table id="table-img-mobile">
-                                            <tr>
-                                                <td>
-                                                    <asp:Image ID="img_mobile_1" ImageUrl="~/Resource/Admin icon/img-mobile-error.png" runat="server" Height="100" Width="100" AlternateText="img" /></td>
-                                                <td>
-                                                    <asp:Image ID="img_mobile_2" ImageUrl="~/Resource/Admin icon/img-mobile-error.png" runat="server" Height="100" Width="100" AlternateText="img" /></td>
-
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <asp:Image ID="img_mobile_3" ImageUrl="~/Resource/Admin icon/img-mobile-error.png" runat="server" Height="100" Width="100" AlternateText="img" /></td>
-                                                <td>
-                                                    <asp:Image ID="img_mobile_4" ImageUrl="~/Resource/Admin icon/img-mobile-error.png" runat="server" Height="100" Width="100" AlternateText="img" /></td>
-
-                                            </tr>
-                                        </table>
-                                    </td>
+                                   
                                     <td>Ram: &nbsp;<asp:Label ID="ram" runat="server">none</asp:Label></td>
                                     <td>Kích thước mh: &nbsp;<asp:Label ID="sizeScreen" runat="server">none</asp:Label></td>
-                                    <td>Loại pin: &nbsp;<asp:Label ID="typePin" runat="server">none</asp:Label></td>
+                                    <td>Loại mh: &nbsp;<asp:Label ID="typeScreen" runat="server">none</asp:Label>
+                                    </td>
+                                     <td>Loại pin: &nbsp;<asp:Label ID="typePin" runat="server">none</asp:Label></td>
                                 </tr>
                                 <tr>
                                     <td>Giá: &nbsp;<asp:Label ID="money" runat="server">none</asp:Label></td>
@@ -133,8 +118,13 @@
                                     <td>Số khe cắm sim: &nbsp;<asp:Label ID="numberSim" runat="server">none</asp:Label></td>
                                     <td>Hỗ trợ bộ nhớ cao nhất: &nbsp;<asp:Label ID="maxSupportMemory" runat="server">none</asp:Label></td>
                                 </tr>
+                                 <tr>
+
+                                   <td colspan="4">Video: &nbsp;<asp:Label ID="video" runat="server">none</asp:Label></td>
+
+                                </tr>
                                 <tr>
-                                    <td>Số lượng:
+                                    <td colspan="2">Số lượng:
                                         <br />
                                         <div id="table-padding">
                                             <table id="number-mobile">
@@ -216,11 +206,28 @@
                                             </table>
                                         </div>
                                     </td>
-                                    <td>Loại mh: &nbsp;<asp:Label ID="typeScreen" runat="server">none</asp:Label>
+                                     <td colspan="2">Ảnh:<br />
+                                        <table id="table-img-mobile">
+                                            <tr>
+                                                <td>
+                                                    <asp:Image ID="img_mobile_1" ImageUrl="~/Resource/Admin icon/img-mobile-error.png" runat="server" Height="100" Width="100" AlternateText="img" /></td>
+                                                <td>
+                                                    <asp:Image ID="img_mobile_2" ImageUrl="~/Resource/Admin icon/img-mobile-error.png" runat="server" Height="100" Width="100" AlternateText="img" /></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <asp:Image ID="img_mobile_3" ImageUrl="~/Resource/Admin icon/img-mobile-error.png" runat="server" Height="100" Width="100" AlternateText="img" /></td>
+                                                <td>
+                                                    <asp:Image ID="img_mobile_4" ImageUrl="~/Resource/Admin icon/img-mobile-error.png" runat="server" Height="100" Width="100" AlternateText="img" /></td>
+
+                                            </tr>
+                                        </table>
                                     </td>
-                                    <td colspan="2">Video: &nbsp;<asp:Label ID="video" runat="server">none</asp:Label></td>
+                                   
 
                                 </tr>
+                               
                                 <tr>
                                     <td colspan="4">Giới thiệu:
                                         <br />

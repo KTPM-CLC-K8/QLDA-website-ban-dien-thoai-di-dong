@@ -157,42 +157,6 @@ namespace Sunflower.Admin {
         protected global::System.Web.UI.WebControls.Label capacityPin;
         
         /// <summary>
-        /// img_mobile_1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image img_mobile_1;
-        
-        /// <summary>
-        /// img_mobile_2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image img_mobile_2;
-        
-        /// <summary>
-        /// img_mobile_3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image img_mobile_3;
-        
-        /// <summary>
-        /// img_mobile_4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image img_mobile_4;
-        
-        /// <summary>
         /// ram control.
         /// </summary>
         /// <remarks>
@@ -209,6 +173,15 @@ namespace Sunflower.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label sizeScreen;
+        
+        /// <summary>
+        /// typeScreen control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label typeScreen;
         
         /// <summary>
         /// typePin control.
@@ -328,6 +301,15 @@ namespace Sunflower.Admin {
         protected global::System.Web.UI.WebControls.Label maxSupportMemory;
         
         /// <summary>
+        /// video control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label video;
+        
+        /// <summary>
         /// white control.
         /// </summary>
         /// <remarks>
@@ -427,22 +409,40 @@ namespace Sunflower.Admin {
         protected global::System.Web.UI.WebControls.Label blue;
         
         /// <summary>
-        /// typeScreen control.
+        /// img_mobile_1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label typeScreen;
+        protected global::System.Web.UI.WebControls.Image img_mobile_1;
         
         /// <summary>
-        /// video control.
+        /// img_mobile_2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label video;
+        protected global::System.Web.UI.WebControls.Image img_mobile_2;
+        
+        /// <summary>
+        /// img_mobile_3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image img_mobile_3;
+        
+        /// <summary>
+        /// img_mobile_4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image img_mobile_4;
         
         /// <summary>
         /// imgIntro control.
