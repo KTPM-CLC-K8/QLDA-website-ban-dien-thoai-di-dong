@@ -1,0 +1,7 @@
+D:\web\ASP .NET\btl\Sunflower-building\BUS\bin\Debug\BUS.dll
+D:\web\ASP .NET\btl\Sunflower-building\BUS\bin\Debug\BUS.pdb
+D:\web\ASP .NET\btl\Sunflower-building\BUS\bin\Debug\DAL.dll
+D:\web\ASP .NET\btl\Sunflower-building\BUS\bin\Debug\DAL.pdb
+D:\web\ASP .NET\btl\Sunflower-building\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\web\ASP .NET\btl\Sunflower-building\BUS\obj\Debug\BUS.dll
+D:\web\ASP .NET\btl\Sunflower-building\BUS\obj\Debug\BUS.pdb
