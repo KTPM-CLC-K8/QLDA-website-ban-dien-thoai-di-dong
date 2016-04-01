@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Trangchu.aspx.cs" Inherits="Sunflower.Trang_chủ.Trangchu" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PhoneSamSung.master.cs" Inherits="Sunflower.ChiTietPhone.PhoneSamSung" %>
 
 <!DOCTYPE html>
 
@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-md-12">
                     <ul class="nav nav-pills">
-                        <li><a href="Trangchu.aspx">
+                        <li><a href="../Trang%20chủ/Trangchu.aspx">
                             <img class="anh" src="../Resource/imgTrangChu/home.png" />
                             TRANG CHỦ</a></li>
                         <li><a href="#">
@@ -35,7 +35,7 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul class="multi-column-dropdown">
-                                            <li><a href="../ChiTietPhone/PhoneSamSung.aspx">Sam Sung</a></li>
+                                            <li><a href="PhoneSamSung.aspx">Sam Sung</a></li>
                                             <li><a href="#">Apple</a></li>
                                             <li><a href="#">Sony</a></li>
                                             <li><a href="#">Nokia</a></li>
@@ -249,175 +249,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div id="Slide">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                                <li data-target="#myCarousel" data-slide-to="3"></li>
-                                <li data-target="#myCarousel" data-slide-to="4"></li>
-                            </ol>
-
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                    <img src="../Resource/imgTrangChu/slide1.png" alt="">
-                                </div>
-
-                                <div class="item">
-                                    <img src="../Resource/imgTrangChu/slide2.png" alt="">
-                                </div>
-
-                                <div class="item">
-                                    <img src="../Resource/imgTrangChu/slide3.png" alt="">
-                                </div>
-
-                                <div class="item">
-                                    <img src="../Resource/imgTrangChu/slide4.png" alt="">
-                                </div>
-                                <div class="item">
-                                    <img src="../Resource/imgTrangChu/slide5.png" alt="">
-                                </div>
-                            </div>
-
-                            <!-- Left and right controls -->
-                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="PhoneHot">
-                        <h4>ĐIỆN THOẠI HOT</h4>
-                        <hr />
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh1.png" />
-                            Microsoft Lumia 950 XL<br />
-                            <label>15.989.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh2.png" />
-                            iPhone 6s Plus 16GB (Bản Quốc tế)<br />
-                            <label>19.790.000 ₫ </label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh3.jpg" />
-                            Samsung Galaxy Note 4<br />
-                            <label>10.489.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh4.jpg" />
-                            Samsung Galaxy S6 G920F<br />
-                            <label>14.490.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh5.jpg" />
-                            Samsung Galaxy V Plus G318<br />
-                            <label>1.589.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh6.png" />
-                            iPhone 6s Plus 128GB (Bản Quốc tế)<br />
-                            <label>27.490.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh7.png" />
-                            iPhone 6s Plus 64GB (Bản Quốc tế)<br />
-                            <label>22.690.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh8.png" />
-                            iPhone 6s 16GB (Bản Quốc tế)<br />
-                            <label>17.390.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh9.png" />
-                            Oppo F1<br />
-                            <label>5.990.000 ₫</label>
-                        </div>
-                    </div>
-                    <br />
-                    <div class="PhoneMoi">
-                        <h4>ĐIỆN THOẠI MỚI</h4>
-                        <hr />
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh1.png" />
-                            Microsoft Lumia 950 XL<br />
-                            <label>15.989.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh2.png" />
-                            iPhone 6s Plus 16GB (Bản Quốc tế)<br />
-                            <label>19.790.000 ₫ </label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh3.jpg" />
-                            Samsung Galaxy Note 4<br />
-                            <label>10.489.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh4.jpg" />
-                            Samsung Galaxy S6 G920F<br />
-                            <label>14.490.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh5.jpg" />
-                            Samsung Galaxy V Plus G318<br />
-                            <label>1.589.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh6.png" />
-                            iPhone 6s Plus 128GB (Bản Quốc tế)<br />
-                            <label>27.490.000 ₫</label>
-                        </div>
-                    </div>
-                    <br />
-                    <div class="PhuKien">
-                        <h4>PHỤ KIỆN</h4>
-                        <hr />
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/pk1.jpg" />
-                            Sạc nhanh Samsung Galaxy Note 5<br />
-                            <label>1.190.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/pk2.jpg" />
-                            Tai nghe Bluetooth Roman X3S<br />
-                            <label>400.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/pk3.jpg" />
-                            Loa Sennic SN467<br />
-                            <label>250.000 ₫ </label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/pk4.jpg" />
-                            Sạc dự phòng SSK SRBC 525 6000mAh<br />
-                            <label>300.000 ₫  </label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/pk5.png" />
-                            Thẻ nhớ SSK 8G MCSD004<br />
-                            <label>80.000 ₫ </label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/pk6.jpg" />
-                            Bao da Baseus Terse iPhone 6/ 6s<br />
-                            <label>260.000 ₫</label>
-                        </div>
-                    </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
                 </div>
                 <div class="col-md-3">
                     <div class="panel panel-default">
