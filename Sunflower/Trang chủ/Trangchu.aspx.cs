@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace BTL
+namespace Sunflower.Trang_chủ
 {
-    public partial class Main : System.Web.UI.Page
+    public partial class Trangchu : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

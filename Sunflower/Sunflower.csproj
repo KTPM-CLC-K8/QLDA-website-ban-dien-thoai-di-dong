@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\MobilePage.aspx" />
+    <Content Include="Design\bootstrap-3.3.6-dist\js\jquery.min.js" />
     <Content Include="Design\bootstrap-3.3.6-dist\css\bootstrap-theme.css.map" />
     <Content Include="Design\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css.map" />
     <Content Include="Design\bootstrap-3.3.6-dist\css\bootstrap.css.map" />
@@ -67,6 +68,12 @@
     <Content Include="Design\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Design\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Admin\admin.Master" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Trang chủ\Trangchu.aspx" />
+    <Content Include="xxx.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -88,48 +95,91 @@
     <Content Include="Design\Css\trangchu.css" />
     <Content Include="Design\Js\jquery-1.12.2.min.js" />
     <Content Include="Design\Js\jquery-ui-1.9.2.custom.js" />
-    <Content Include="Resource\Trang chu\admin.png" />
-    <Content Include="Resource\Trang chu\anh1.png" />
-    <Content Include="Resource\Trang chu\anh2.png" />
-    <Content Include="Resource\Trang chu\anh3.jpg" />
-    <Content Include="Resource\Trang chu\anh4.jpg" />
-    <Content Include="Resource\Trang chu\anh5.jpg" />
-    <Content Include="Resource\Trang chu\anh6.png" />
-    <Content Include="Resource\Trang chu\anh7.png" />
-    <Content Include="Resource\Trang chu\anh8.png" />
-    <Content Include="Resource\Trang chu\anh9.png" />
-    <Content Include="Resource\Trang chu\banner-iphone_zps82e8d8dd.png" />
-    <Content Include="Resource\Trang chu\banner-khuyen-mai.png" />
-    <Content Include="Resource\Trang chu\banner.gif" />
-    <Content Include="Resource\Trang chu\banner1.gif" />
-    <Content Include="Resource\Trang chu\banner2.gif" />
-    <Content Include="Resource\Trang chu\cart.png" />
-    <Content Include="Resource\Trang chu\email.png" />
-    <Content Include="Resource\Trang chu\gioithieu.png" />
-    <Content Include="Resource\Trang chu\headphone.png" />
-    <Content Include="Resource\Trang chu\home.png" />
-    <Content Include="Resource\Trang chu\mobile.png" />
-    <Content Include="Resource\Trang chu\news.png" />
-    <Content Include="Resource\Trang chu\phone_lienhe.png" />
-    <Content Include="Resource\Trang chu\pk1.jpg" />
-    <Content Include="Resource\Trang chu\pk2.jpg" />
-    <Content Include="Resource\Trang chu\pk3.jpg" />
-    <Content Include="Resource\Trang chu\pk4.jpg" />
-    <Content Include="Resource\Trang chu\pk5.png" />
-    <Content Include="Resource\Trang chu\pk6.jpg" />
-    <Content Include="Resource\Trang chu\quangcao1.png" />
-    <Content Include="Resource\Trang chu\quangcao2.png" />
-    <Content Include="Resource\Trang chu\sale.png" />
-    <Content Include="Resource\Trang chu\slide1.png" />
-    <Content Include="Resource\Trang chu\slide2.png" />
-    <Content Include="Resource\Trang chu\slide3.png" />
-    <Content Include="Resource\Trang chu\slide4.png" />
-    <Content Include="Resource\Trang chu\slide5.png" />
-    <Content Include="Resource\Trang chu\top_banner.jpg" />
-    <Content Include="Resource\Trang chu\tra-gop-0-new.png" />
-    <Content Include="Resource\Trang chu\ttuc1.jpg" />
-    <Content Include="Resource\Trang chu\ttuc2.jpg" />
-    <Content Include="Resource\Trang chu\ttuc3.jpg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="picture\admin.png" />
+    <Content Include="picture\anh1.png" />
+    <Content Include="picture\anh2.png" />
+    <Content Include="picture\anh3.jpg" />
+    <Content Include="picture\anh4.jpg" />
+    <Content Include="picture\anh5.jpg" />
+    <Content Include="picture\anh6.png" />
+    <Content Include="picture\anh7.png" />
+    <Content Include="picture\anh8.png" />
+    <Content Include="picture\anh9.png" />
+    <Content Include="picture\banner-iphone_zps82e8d8dd.png" />
+    <Content Include="picture\banner-khuyen-mai.png" />
+    <Content Include="picture\banner.gif" />
+    <Content Include="picture\banner1.gif" />
+    <Content Include="picture\banner2.gif" />
+    <Content Include="picture\cart.png" />
+    <Content Include="picture\email.png" />
+    <Content Include="picture\gioithieu.png" />
+    <Content Include="picture\headphone.png" />
+    <Content Include="picture\home.png" />
+    <Content Include="picture\mobile.png" />
+    <Content Include="picture\news.png" />
+    <Content Include="picture\phone_lienhe.png" />
+    <Content Include="picture\pk1.jpg" />
+    <Content Include="picture\pk2.jpg" />
+    <Content Include="picture\pk3.jpg" />
+    <Content Include="picture\pk4.jpg" />
+    <Content Include="picture\pk5.png" />
+    <Content Include="picture\pk6.jpg" />
+    <Content Include="picture\quangcao1.png" />
+    <Content Include="picture\quangcao2.png" />
+    <Content Include="picture\sale.png" />
+    <Content Include="picture\slide1.png" />
+    <Content Include="picture\slide2.png" />
+    <Content Include="picture\slide3.png" />
+    <Content Include="picture\slide4.png" />
+    <Content Include="picture\slide5.png" />
+    <Content Include="picture\top_banner.jpg" />
+    <Content Include="picture\tra-gop-0-new.png" />
+    <Content Include="picture\ttuc1.jpg" />
+    <Content Include="picture\ttuc2.jpg" />
+    <Content Include="picture\ttuc3.jpg" />
+    <Content Include="Resource\imgTrangChu\admin.png" />
+    <Content Include="Resource\imgTrangChu\anh1.png" />
+    <Content Include="Resource\imgTrangChu\anh2.png" />
+    <Content Include="Resource\imgTrangChu\anh3.jpg" />
+    <Content Include="Resource\imgTrangChu\anh4.jpg" />
+    <Content Include="Resource\imgTrangChu\anh5.jpg" />
+    <Content Include="Resource\imgTrangChu\anh6.png" />
+    <Content Include="Resource\imgTrangChu\anh7.png" />
+    <Content Include="Resource\imgTrangChu\anh8.png" />
+    <Content Include="Resource\imgTrangChu\anh9.png" />
+    <Content Include="Resource\imgTrangChu\banner-iphone_zps82e8d8dd.png" />
+    <Content Include="Resource\imgTrangChu\banner-khuyen-mai.png" />
+    <Content Include="Resource\imgTrangChu\banner.gif" />
+    <Content Include="Resource\imgTrangChu\banner1.gif" />
+    <Content Include="Resource\imgTrangChu\banner2.gif" />
+    <Content Include="Resource\imgTrangChu\cart.png" />
+    <Content Include="Resource\imgTrangChu\email.png" />
+    <Content Include="Resource\imgTrangChu\gioithieu.png" />
+    <Content Include="Resource\imgTrangChu\headphone.png" />
+    <Content Include="Resource\imgTrangChu\home.png" />
+    <Content Include="Resource\imgTrangChu\mobile.png" />
+    <Content Include="Resource\imgTrangChu\news.png" />
+    <Content Include="Resource\imgTrangChu\phone_lienhe.png" />
+    <Content Include="Resource\imgTrangChu\pk1.jpg" />
+    <Content Include="Resource\imgTrangChu\pk2.jpg" />
+    <Content Include="Resource\imgTrangChu\pk3.jpg" />
+    <Content Include="Resource\imgTrangChu\pk4.jpg" />
+    <Content Include="Resource\imgTrangChu\pk5.png" />
+    <Content Include="Resource\imgTrangChu\pk6.jpg" />
+    <Content Include="Resource\imgTrangChu\quangcao1.png" />
+    <Content Include="Resource\imgTrangChu\quangcao2.png" />
+    <Content Include="Resource\imgTrangChu\sale.png" />
+    <Content Include="Resource\imgTrangChu\slide1.png" />
+    <Content Include="Resource\imgTrangChu\slide2.png" />
+    <Content Include="Resource\imgTrangChu\slide3.png" />
+    <Content Include="Resource\imgTrangChu\slide4.png" />
+    <Content Include="Resource\imgTrangChu\slide5.png" />
+    <Content Include="Resource\imgTrangChu\top_banner.jpg" />
+    <Content Include="Resource\imgTrangChu\tra-gop-0-new.png" />
+    <Content Include="Resource\imgTrangChu\ttuc1.jpg" />
+    <Content Include="Resource\imgTrangChu\ttuc2.jpg" />
+    <Content Include="Resource\imgTrangChu\ttuc3.jpg" />
     <Content Include="Resource\Admin icon\admin-icon.png" />
     <Content Include="Resource\Admin icon\Exit.png" />
     <Content Include="Resource\Admin icon\img-mobile-error.png" />
@@ -138,7 +188,6 @@
     <Content Include="Resource\ImgPrimary\Samsung Galaxy J5.jpeg" />
     <Content Include="Resource\ImgPrimary\Samsung Galaxy Note 5.png" />
     <Content Include="Resource\ImgPrimary\Samsung Galaxy S6 G920F.jpeg" />
-    <Content Include="Trang chủ\Trangchu.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +212,13 @@
     </Compile>
     <Compile Include="Trang chủ\Trangchu.aspx.designer.cs">
       <DependentUpon>Trangchu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="xxx.aspx.cs">
+      <DependentUpon>xxx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xxx.aspx.designer.cs">
+      <DependentUpon>xxx.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -1,39 +1,41 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Trangchu.aspx.cs" Inherits="BTL.Main" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Trangchu.aspx.cs" Inherits="Sunflower.Trang_chủ.Trangchu" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="../Design/Css/trangchu.css" rel="stylesheet" />
+    <link href="../Design/Trang chu/css/trangchu.css" rel="stylesheet" />
     <link href="../Design/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" />
     <link href="../Design/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <script src="../Design/bootstrap-3.3.6-dist/js/jquery.min.js"></script>
+    <script src="../Design/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <img id="banner" src="../Resource/Trang chu/banner2.gif" />
+                    <img id="banner" src="../Resource/imgTrangChu/banner2.gif" />
                 </div>
                 <div class="col-md-12">
                     <ul class="nav nav-pills">
                         <li><a href="#">
-                            <img class="anh" src="../Resource/Trang chu/home.png" />
+                            <img class="anh" src="../Resource/imgTrangChu/home.png" />
                             TRANG CHỦ</a></li>
                         <li><a href="#">
-                            <img class="anh" src="../Resource/Trang chu/gioithieu.png" />
+                            <img class="anh" src="../Resource/imgTrangChu/gioithieu.png" />
                             GIỚI THIỆU</a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                <img class="anh" src="../Resource/Trang chu/mobile.png" />
+                                <img class="anh" src="../Resource/imgTrangChu/mobile.png" />
                                 ĐIỆN THOẠI
                           <span class="caret"></span></a>
                             <ul class="dropdown-menu multi-column columns-2">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul class="multi-column-dropdown">
-                                            <li><a href="PhoneSamSung.aspx">Sam Sung</a></li>
+                                            <li><a href="#">Sam Sung</a></li>
                                             <li><a href="#">Apple</a></li>
                                             <li><a href="#">Sony</a></li>
                                             <li><a href="#">Nokia</a></li>
@@ -64,7 +66,7 @@
                         </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                <img class="anh" src="../Resource/Trang chu/headphone.png" />
+                                <img class="anh" src="../Resource/imgTrangChu/headphone.png" />
                                 PHỤ KIỆN
                           <span class="caret"></span></a>
                             <ul class="dropdown-menu phukien" id="phukien">
@@ -78,16 +80,16 @@
                             </ul>
                         </li>
                         <li><a href="#">
-                            <img class="anh" src="../Resource/Trang chu/cart.png" />
+                            <img class="anh" src="../Resource/imgTrangChu/cart.png" />
                             <asp:Label ID="giohang" runat="server">GIỎ HÀNG</asp:Label></a></li>
                         <li><a href="#">
-                            <img class="anh" src="../Resource/Trang chu/sale.png" />
+                            <img class="anh" src="../Resource/imgTrangChu/sale.png" />
                             KHUYẾN MẠI </a></li>
                         <li><a href="TinTuc.aspx">
-                            <img class="anh" src="../Resource/Trang chu/news.png" />
+                            <img class="anh" src="../Resource/imgTrangChu/news.png" />
                             TIN TỨC</a></li>
                         <li><a href="#">
-                            <img class="anh" src="../Resource/Trang chu/email.png" />
+                            <img class="anh" src="../Resource/imgTrangChu/email.png" />
                             GÓP Ý </a></li>
                     </ul>
                 </div>
@@ -199,7 +201,7 @@
                                 <div class="km">
                                     <a href="#">
                                         <div>
-                                            <img src="../Resource/Trang chu/ttuc1.jpg" />
+                                            <img src="../Resource/imgTrangChu/ttuc1.jpg" />
                                         </div>
                                     </a>
 
@@ -212,7 +214,7 @@
                                 <div class="km">
                                     <a href="#">
                                         <div>
-                                            <img src="../Resource/Trang chu/ttuc2.jpg" />
+                                            <img src="../Resource/imgTrangChu/ttuc2.jpg" />
                                         </div>
                                     </a>
                                     <a href="#">
@@ -223,7 +225,7 @@
                                 <div class="km">
                                     <a href="#">
                                         <div>
-                                            <img src="../Resource/Trang chu/ttuc3.jpg" />
+                                            <img src="../Resource/imgTrangChu/ttuc3.jpg" />
                                         </div>
                                     </a>
                                     <a href="#">
@@ -240,10 +242,10 @@
                     <br />
                     <br />
                     <div class="QuangCao1">
-                        <img src="../Resource/Trang chu/quangcao1.png" />
+                        <img src="../Resource/imgTrangChu/quangcao1.png" />
                     </div>
                     <div class="QuangCao2">
-                        <img src="../Resource/Trang chu/quangcao2.png" />
+                        <img src="../Resource/imgTrangChu/quangcao2.png" />
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -261,22 +263,22 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <img src="../Resource/Trang chu/slide1.png" alt="">
+                                    <img src="../Resource/imgTrangChu/slide1.png" alt="">
                                 </div>
 
                                 <div class="item">
-                                    <img src="../Resource/Trang chu/slide2.png" alt="">
+                                    <img src="../Resource/imgTrangChu/slide2.png" alt="">
                                 </div>
 
                                 <div class="item">
-                                    <img src="../Resource/Trang chu/slide3.png" alt="">
+                                    <img src="../Resource/imgTrangChu/slide3.png" alt="">
                                 </div>
 
                                 <div class="item">
-                                    <img src="../Resource/Trang chu/slide4.png" alt="">
+                                    <img src="../Resource/imgTrangChu/slide4.png" alt="">
                                 </div>
                                 <div class="item">
-                                    <img src="../Resource/Trang chu/slide5.png" alt="">
+                                    <img src="../Resource/imgTrangChu/slide5.png" alt="">
                                 </div>
                             </div>
 
@@ -297,47 +299,47 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh1.png" />
+                            <img src="../Resource/imgTrangChu/anh1.png" />
                             Microsoft Lumia 950 XL<br />
                             <label>15.989.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh2.png" />
+                            <img src="../Resource/imgTrangChu/anh2.png" />
                             iPhone 6s Plus 16GB (Bản Quốc tế)<br />
                             <label>19.790.000 ₫ </label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh3.jpg" />
+                            <img src="../Resource/imgTrangChu/anh3.jpg" />
                             Samsung Galaxy Note 4<br />
                             <label>10.489.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh4.jpg" />
+                            <img src="../Resource/imgTrangChu/anh4.jpg" />
                             Samsung Galaxy S6 G920F<br />
                             <label>14.490.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh5.jpg" />
+                            <img src="../Resource/imgTrangChu/anh5.jpg" />
                             Samsung Galaxy V Plus G318<br />
                             <label>1.589.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh6.png" />
+                            <img src="../Resource/imgTrangChu/anh6.png" />
                             iPhone 6s Plus 128GB (Bản Quốc tế)<br />
                             <label>27.490.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh7.png" />
+                            <img src="../Resource/imgTrangChu/anh7.png" />
                             iPhone 6s Plus 64GB (Bản Quốc tế)<br />
                             <label>22.690.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh8.png" />
+                            <img src="../Resource/imgTrangChu/anh8.png" />
                             iPhone 6s 16GB (Bản Quốc tế)<br />
                             <label>17.390.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh9.png" />
+                            <img src="../Resource/imgTrangChu/anh9.png" />
                             Oppo F1<br />
                             <label>5.990.000 ₫</label>
                         </div>
@@ -349,32 +351,32 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh1.png" />
+                            <img src="../Resource/imgTrangChu/anh1.png" />
                             Microsoft Lumia 950 XL<br />
                             <label>15.989.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh2.png" />
+                            <img src="../Resource/imgTrangChu/anh2.png" />
                             iPhone 6s Plus 16GB (Bản Quốc tế)<br />
                             <label>19.790.000 ₫ </label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh3.jpg" />
+                            <img src="../Resource/imgTrangChu/anh3.jpg" />
                             Samsung Galaxy Note 4<br />
                             <label>10.489.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh4.jpg" />
+                            <img src="../Resource/imgTrangChu/anh4.jpg" />
                             Samsung Galaxy S6 G920F<br />
                             <label>14.490.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh5.jpg" />
+                            <img src="../Resource/imgTrangChu/anh5.jpg" />
                             Samsung Galaxy V Plus G318<br />
                             <label>1.589.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/anh6.png" />
+                            <img src="../Resource/imgTrangChu/anh6.png" />
                             iPhone 6s Plus 128GB (Bản Quốc tế)<br />
                             <label>27.490.000 ₫</label>
                         </div>
@@ -386,32 +388,32 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/pk1.jpg" />
+                            <img src="../Resource/imgTrangChu/pk1.jpg" />
                             Sạc nhanh Samsung Galaxy Note 5<br />
                             <label>1.190.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/pk2.jpg" />
+                            <img src="../Resource/imgTrangChu/pk2.jpg" />
                             Tai nghe Bluetooth Roman X3S<br />
                             <label>400.000 ₫</label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/pk3.jpg" />
+                            <img src="../Resource/imgTrangChu/pk3.jpg" />
                             Loa Sennic SN467<br />
                             <label>250.000 ₫ </label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/pk4.jpg" />
+                            <img src="../Resource/imgTrangChu/pk4.jpg" />
                             Sạc dự phòng SSK SRBC 525 6000mAh<br />
                             <label>300.000 ₫  </label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/pk5.jpg" />
+                            <img src="../Resource/imgTrangChu/pk5.png" />
                             Thẻ nhớ SSK 8G MCSD004<br />
                             <label>80.000 ₫ </label>
                         </div>
                         <div class="col-sm-4">
-                            <img src="../Resource/Trang chu/pk6.jpg" />
+                            <img src="../Resource/imgTrangChu/pk6.jpg" />
                             Bao da Baseus Terse iPhone 6/ 6s<br />
                             <label>260.000 ₫</label>
                         </div>
@@ -424,11 +426,11 @@
                         </div>
                         <div class="panel-body">
                             <div class="LienHe">
-                                <img src="../Resource/Trang chu/phone_lienhe.png" />
+                                <img src="../Resource/imgTrangChu/phone_lienhe.png" />
                                 Mr.Sơn: 12345<br />
-                                <img src="../Resource/Trang chu/phone_lienhe.png" />
+                                <img src="../Resource/imgTrangChu/phone_lienhe.png" />
                                 Mr.Kiên: 12345<br />
-                                <img src="../Resource/Trang chu/phone_lienhe.png" />
+                                <img src="../Resource/imgTrangChu/phone_lienhe.png" />
                                 Ms.Dung: 12345
                             </div>
                         </div>
@@ -442,7 +444,7 @@
                                 <div class="tt1">
                                     <a href="#">
                                         <div>
-                                            <img src="../Resource/Trang chu/ttuc1.jpg" />
+                                            <img src="../Resource/imgTrangChu/ttuc1.jpg" />
                                         </div>
                                     </a>
 
@@ -455,7 +457,7 @@
                                 <div class="tt1">
                                     <a href="#">
                                         <div>
-                                            <img src="../Resource/Trang chu/ttuc2.jpg" />
+                                            <img src="../Resource/imgTrangChu/ttuc2.jpg" />
                                         </div>
                                     </a>
                                     <a href="#">
@@ -466,7 +468,7 @@
                                 <div class="tt1">
                                     <a href="#">
                                         <div>
-                                            <img src="../Resource/Trang chu/ttuc3.jpg" />
+                                            <img src="../Resource/imgTrangChu/ttuc3.jpg" />
                                         </div>
                                     </a>
                                     <a href="#">
@@ -485,8 +487,8 @@
                     <footer>Nhóm 1 - Xây dựng website bán điện thoại</footer>
                 </div>
             </div>
-        </div>  
-        <script src="../Design/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+        </div>
+
     </form>
 </body>
 </html>

@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BTL {
+namespace Sunflower.Trang_chủ {
     
     
-    public partial class Main {
+    public partial class Trangchu {
         
         /// <summary>
         /// form1 control.
