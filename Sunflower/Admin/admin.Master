@@ -19,7 +19,18 @@
                 return $(this).next('.statusRollup').remove().html()
             });
             $(document).tooltip();
-         });
+        });
+        function popup() {
+            //$("#modal-show-detail").dialog({
+               
+            //    buttons: {
+            //        Close: function () {
+            //            $(this).dialog('close');
+            //        }
+            //    }
+            //});
+
+        }
     </script>
     
 </head>

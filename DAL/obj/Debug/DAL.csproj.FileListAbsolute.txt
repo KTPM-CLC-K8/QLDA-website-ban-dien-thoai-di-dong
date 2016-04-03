@@ -3,3 +3,8 @@ D:\web\ASP .NET\btl\Sunflower-building\DAL\bin\Debug\DAL.pdb
 D:\web\ASP .NET\btl\Sunflower-building\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\web\ASP .NET\btl\Sunflower-building\DAL\obj\Debug\DAL.dll
 D:\web\ASP .NET\btl\Sunflower-building\DAL\obj\Debug\DAL.pdb
+D:\web\ASP .NET\btl\Sunflower 3\DAL\bin\Debug\DAL.dll
+D:\web\ASP .NET\btl\Sunflower 3\DAL\bin\Debug\DAL.pdb
+D:\web\ASP .NET\btl\Sunflower 3\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\web\ASP .NET\btl\Sunflower 3\DAL\obj\Debug\DAL.dll
+D:\web\ASP .NET\btl\Sunflower 3\DAL\obj\Debug\DAL.pdb

@@ -1,75 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/admin.Master" AutoEventWireup="true" CodeBehind="MobilePage.aspx.cs" Inherits="Sunflower.Admin.Main" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/admin.Master" AutoEventWireup="true" CodeBehind="InforMobile.aspx.cs" Inherits="Sunflower.Admin.InforMobile" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <div class="panel panel-primary" style="margin-left: 10px; margin-top: 10px; width: 1000px">
-        <div class="panel-heading">
-            Cập nhật điện thoại
-        </div>
-        <div class="panel-body">
-            <asp:GridView CssClass="grid-view" RowStyle-CssClass="grid-view-row" ID="gr1" runat="server" Width="100%" HorizontalAlign="Center" AutoGenerateColumns="false" AllowPaging="true" OnPageIndexChanging="page_changing" PageSize="10" EditRowStyle-BorderStyle="NotSet" OnRowCommand="gr1_RowCommand">
-                <Columns>
-                    <asp:TemplateField ItemStyle-CssClass="item-gridview" HeaderStyle-CssClass="text-header-gridview" HeaderText="Xóa">
-                        <ItemTemplate>
-                            <asp:CheckBox ID="cb" runat="server" />
-                        </ItemTemplate>
-                    </asp:TemplateField>
-                    <%--<asp:TemplateField ItemStyle-CssClass="item-gridview" HeaderStyle-CssClass="text-header-gridview" HeaderText="Thông tin">
-                        <ItemTemplate>
-
-                            <button type="button" onclick="popup()" class="btn btn-info btn-xs" data-toggle="modal" data-target="#modal-show-detail">Chi tiết</button>
-                        </ItemTemplate>
-                    </asp:TemplateField>--%>
-                   
-                    <asp:ButtonField CommandName="btnInfor" ItemStyle-CssClass="item-gridview" HeaderStyle-CssClass="text-header-gridview" ControlStyle-CssClass="btn btn-info btn-xs" ButtonType="Button" Text="Chi tiết" HeaderText="Thông tin" />
-                    <asp:ButtonField ItemStyle-CssClass="item-gridview" HeaderStyle-CssClass="text-header-gridview" CommandName="edit" ControlStyle-CssClass="btn btn-primary btn-xs" ButtonType="Button" Text="Sửa" HeaderText="Chỉnh sửa" />
-                    <asp:BoundField HeaderStyle-CssClass="text-header-gridview" ItemStyle-CssClass="text-margin-in-cell" DataField="IdMobile" HeaderText="ID" />
-
-                    <asp:TemplateField ItemStyle-CssClass="text-margin-in-cell" HeaderStyle-CssClass="text-header-gridview" HeaderText="Tên">
-                        <ItemTemplate>
-                            <asp:Label ID="col_name" runat="server" Text='<%#Eval("Name") %>'></asp:Label>
-                            <div class="item inline" style="float: right; padding-right: 5px">
-                                <img src="../Resource/Admin icon/preview.png" height="30" width="30" alt="preview" />
-                            </div>
-                            <div class="statusRollup">
-                                <asp:Image ID="img" Width="250px" Height="220px" ImageUrl='<%#Eval("ImgPrimary") %>' runat="server" />
-                            </div>
-                        </ItemTemplate>
-                    </asp:TemplateField>
-                    <asp:BoundField HeaderStyle-CssClass="text-header-gridview" ItemStyle-CssClass="text-margin-in-cell" DataField="Company" HeaderText="NSX" />
-
-                    <asp:TemplateField HeaderStyle-CssClass="text-header-gridview" ItemStyle-CssClass="text-margin-in-cell" HeaderText="Giá (VNĐ)">
-                        <ItemTemplate>
-                            <asp:Label runat="server" Text='<%#Eval("Price", "{0:c}") %>'></asp:Label>
-                        </ItemTemplate>
-                    </asp:TemplateField>
-                    <asp:BoundField HeaderStyle-CssClass="text-header-gridview" ItemStyle-CssClass="text-margin-in-cell" DataField="Guarantee" HeaderText="Bảo hành (tháng)" />
-                    <asp:BoundField HeaderStyle-CssClass="text-header-gridview" ItemStyle-CssClass="text-margin-in-cell" DataField="SaleOff" HeaderText="Giảm giá (%)" />
-
-                </Columns>
-                <PagerSettings Mode="NextPreviousFirstLast" FirstPageText="Trang đầu" LastPageText="Trang cuối" NextPageText="=>>" PreviousPageText="<<=" />
-
-            </asp:GridView>
-
-            <div style="width: 100%; text-align: center; margin: 20px auto;">
-                <asp:Button ID="btDel" runat="server" Text="Xóa mục đã chọn" Width="200px" CssClass="btn btn-success" />
-
-                <asp:Button ID="btAdd" runat="server" Text="Thêm điện thoại mới" Width="200px" CssClass="btn btn-success" />
-
-            </div>
-        </div>
-    </div>
-
-
-    <!--Modal show detail mobile-->
-
-    <asp:UpdatePanel ID="UpdatePanel2" runat="server">
-        <ContentTemplate>
-            <div id="modal-show-detail" class="modal fade" role="dialog">
+    <div style="margin-left: 10px; margin-top: 10px">
                 <div id="width-dialog" class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          
                             <h4 class="modal-title">Chi tiết điện thoại</h4>
                         </div>
                         <div class="modal-body">
@@ -242,12 +177,8 @@
                             </table>
 
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+                      
                     </div>
                 </div>
             </div>
-        </ContentTemplate>
-    </asp:UpdatePanel>
 </asp:Content>

@@ -9,7 +9,7 @@ namespace DAL
 {
     public class Mobile_DAL
     {
-        private static string cns = "Server=DESKTOP-I01CMPG\\SQLEXPRESS; Database= SunflowerMobile; Integrated Security= True";
+        private static string cns = "Server=.\\SQLEXPRESS; Database= SunflowerMobile; Integrated Security= True";
         private static SqlConnection cn = new SqlConnection(cns);
         public static void openConnection()
         {

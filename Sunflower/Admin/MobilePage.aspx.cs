@@ -18,10 +18,7 @@ namespace Sunflower.Admin
             gr1.DataBind();
         }
 
-        protected void page_changed(object sender, EventArgs e)
-        {
-           
-        }
+       
 
         protected void page_changing(object sender, GridViewPageEventArgs e)
         {
@@ -29,9 +26,18 @@ namespace Sunflower.Admin
             gr1.DataBind();
         }
 
-        protected void gr1_SelectedIndexChanged(object sender, EventArgs e)
+        protected void gr1_RowCommand(object sender, GridViewCommandEventArgs e)
         {
+            if(e.CommandName == "btnInfor")
+            {
+                int index = Convert.ToInt32(e.CommandArgument);
+                string idMobile = gr1.Rows[index].Cells[3].Text;
+                Response.Redirect("InforMobile.aspx?idmobile=" + idMobile);
+            }
+           
 
         }
+
+       
     }
 }

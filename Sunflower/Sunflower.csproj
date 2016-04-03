@@ -57,8 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\InforMobile.aspx" />
     <Content Include="Admin\MobilePage.aspx" />
-    <Content Include="ChiTietPhone\PhoneSamSung.aspx" />
     <Content Include="Design\bootstrap-3.3.6-dist\js\jquery.min.js" />
     <Content Include="Design\bootstrap-3.3.6-dist\css\bootstrap-theme.css.map" />
     <Content Include="Design\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css.map" />
@@ -74,7 +74,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Trang chủ\Trangchu.aspx" />
-    <Content Include="xxx.aspx" />
     <Content Include="ChiTietPhone\PhoneSamSung.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -200,6 +199,13 @@
     <Compile Include="Admin\admin.Master.designer.cs">
       <DependentUpon>admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="Admin\InforMobile.aspx.cs">
+      <DependentUpon>InforMobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\InforMobile.aspx.designer.cs">
+      <DependentUpon>InforMobile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\MobilePage.aspx.cs">
       <DependentUpon>MobilePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -214,13 +220,6 @@
     <Compile Include="ChiTietPhone\PhoneSamSung.Master.designer.cs">
       <DependentUpon>PhoneSamSung.Master</DependentUpon>
     </Compile>
-    <Compile Include="ChiTietPhone\PhoneSamSung.aspx.cs">
-      <DependentUpon>PhoneSamSung.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ChiTietPhone\PhoneSamSung.aspx.designer.cs">
-      <DependentUpon>PhoneSamSung.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trang chủ\Trangchu.aspx.cs">
       <DependentUpon>Trangchu.aspx</DependentUpon>
@@ -228,13 +227,6 @@
     </Compile>
     <Compile Include="Trang chủ\Trangchu.aspx.designer.cs">
       <DependentUpon>Trangchu.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="xxx.aspx.cs">
-      <DependentUpon>xxx.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="xxx.aspx.designer.cs">
-      <DependentUpon>xxx.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
