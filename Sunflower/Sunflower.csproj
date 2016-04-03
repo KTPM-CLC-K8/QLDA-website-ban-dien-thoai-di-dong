@@ -73,6 +73,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Resource\ImgMobile\galaxy-j5-1.jpeg" />
+    <Content Include="Resource\ImgMobile\galaxy-j5-2.jpeg" />
+    <Content Include="Resource\ImgMobile\galaxy-j5-3.jpeg" />
+    <Content Include="Resource\ImgMobile\galaxy-j5-4.jpeg" />
+    <Content Include="Resource\ImgMobile\Galaxy-j5.jpg" />
+    <Content Include="Resource\ImgMobile\Note5-1.png" />
+    <Content Include="Resource\ImgMobile\Note5-2.png" />
+    <Content Include="Resource\ImgMobile\Note5-3.png" />
+    <Content Include="Resource\ImgMobile\Note5-4.png" />
+    <Content Include="Resource\ImgMobile\samsung-galaxy-note-5-01.jpg" />
     <Content Include="Trang chủ\Trangchu.aspx" />
     <Content Include="ChiTietPhone\PhoneSamSung.Master" />
     <None Include="Web.Debug.config">

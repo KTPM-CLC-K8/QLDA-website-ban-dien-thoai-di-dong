@@ -54,8 +54,9 @@ namespace DAL
                         "JOIN tab_Os ON tab_Mobile.IdMobile = tab_Os.IdMobile " +
                         "JOIN tab_ImageMobile ON tab_Mobile.IdMobile = tab_ImageMobile.IdMobile " +
                         "JOIN tab_Color ON tab_Mobile.IdMobile = tab_Color.IdMobile " +
-                        "WHERE IdMobile = " + idMobile;
-            SqlCommand scm = new SqlCommand(cm);
+                        "WHERE tab_Mobile.IdMobile = '" + idMobile + "'";
+            
+            SqlCommand scm = new SqlCommand(cm, cn);
             SqlDataReader sdr = scm.ExecuteReader();
             DataTable dt = new DataTable();
             dt.Load(sdr);

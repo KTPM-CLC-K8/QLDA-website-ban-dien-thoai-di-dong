@@ -184,13 +184,13 @@ namespace Sunflower.Admin {
         protected global::System.Web.UI.WebControls.Label induction;
         
         /// <summary>
-        /// contact control.
+        /// exterCard control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label contact;
+        protected global::System.Web.UI.WebControls.Label exterCard;
         
         /// <summary>
         /// guarantee control.
@@ -202,13 +202,13 @@ namespace Sunflower.Admin {
         protected global::System.Web.UI.WebControls.Label guarantee;
         
         /// <summary>
-        /// priSim control.
+        /// priCam control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label priSim;
+        protected global::System.Web.UI.WebControls.Label priCam;
         
         /// <summary>
         /// typeSim control.
@@ -265,6 +265,69 @@ namespace Sunflower.Admin {
         protected global::System.Web.UI.WebControls.Label maxSupportMemory;
         
         /// <summary>
+        /// c2G control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label c2G;
+        
+        /// <summary>
+        /// c3G control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label c3G;
+        
+        /// <summary>
+        /// c4G control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label c4G;
+        
+        /// <summary>
+        /// wifi control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label wifi;
+        
+        /// <summary>
+        /// gps control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label gps;
+        
+        /// <summary>
+        /// bluetooth control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label bluetooth;
+        
+        /// <summary>
+        /// usb control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label usb;
+        
+        /// <summary>
         /// video control.
         /// </summary>
         /// <remarks>
@@ -272,6 +335,15 @@ namespace Sunflower.Admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label video;
+        
+        /// <summary>
+        /// contact control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label contact;
         
         /// <summary>
         /// white control.
