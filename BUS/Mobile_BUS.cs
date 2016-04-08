@@ -18,5 +18,9 @@ namespace BUS
         {
             return Mobile_DAL.getInforMobile(idMobile);
         }
+        public static DataTable getMobileFromCompany(string company)
+        {
+            return Mobile_DAL.getMobileFromCompany(company);
+        }
     }
 }

@@ -9,7 +9,7 @@ namespace DAL
 {
     public class Mobile_DAL
     {
-        private static string cns = "Server=.\\SQLEXPRESS; Database= SunflowerMobile; Integrated Security= True";
+        private static string cns = "Server=DESKTOP-I01CMPG\\SQLEXPRESS; Database= SunflowerMobile; Integrated Security= True";
         private static SqlConnection cn = new SqlConnection(cns);
         public static void openConnection()
         {
@@ -60,6 +60,18 @@ namespace DAL
             SqlDataReader sdr = scm.ExecuteReader();
             DataTable dt = new DataTable();
             dt.Load(sdr);
+            closeConnection();
+            return dt;
+        }
+
+        public static DataTable getMobileFromCompany(string company)
+        {
+            openConnection();
+            string cm = "SELECT * FROM tab_Mobile WHERE Company = '" + company + "'";
+            SqlCommand scm = new SqlCommand(cm, cn);
+            SqlDataReader res = scm.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(res);
             closeConnection();
             return dt;
         }

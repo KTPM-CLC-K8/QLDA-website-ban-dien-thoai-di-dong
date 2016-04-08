@@ -10,7 +10,7 @@
 namespace Sunflower.ChiTietPhone {
     
     
-    public partial class PhoneSamSung {
+    public partial class PhonePage {
         
         /// <summary>
         /// form1 control.

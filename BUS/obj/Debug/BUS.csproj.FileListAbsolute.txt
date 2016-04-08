@@ -12,3 +12,10 @@ D:\web\ASP .NET\btl\Sunflower 3\BUS\bin\Debug\DAL.pdb
 D:\web\ASP .NET\btl\Sunflower 3\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 D:\web\ASP .NET\btl\Sunflower 3\BUS\obj\Debug\BUS.dll
 D:\web\ASP .NET\btl\Sunflower 3\BUS\obj\Debug\BUS.pdb
+D:\LapTrinhWindow2\moi\BUS\bin\Debug\BUS.dll
+D:\LapTrinhWindow2\moi\BUS\bin\Debug\BUS.pdb
+D:\LapTrinhWindow2\moi\BUS\bin\Debug\DAL.dll
+D:\LapTrinhWindow2\moi\BUS\bin\Debug\DAL.pdb
+D:\LapTrinhWindow2\moi\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\LapTrinhWindow2\moi\BUS\obj\Debug\BUS.dll
+D:\LapTrinhWindow2\moi\BUS\obj\Debug\BUS.pdb

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Sunflower.ChiTietPhone
 {
-    public partial class PhoneSamSung : System.Web.UI.MasterPage
+    public partial class PhonePage : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

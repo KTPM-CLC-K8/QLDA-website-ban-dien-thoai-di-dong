@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PhoneSamSung.master.cs" Inherits="Sunflower.ChiTietPhone.PhoneSamSung" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PhonePage.master.cs" Inherits="Sunflower.ChiTietPhone.PhonePage" %>
 
 <!DOCTYPE html>
 
@@ -6,6 +6,7 @@
 <head runat="server">
     <title></title>
     <link href="../Design/Css/trangchu.css" rel="stylesheet" />
+    <link href="../Design/Css/PhoneList.css" rel="stylesheet" />
     <link href="../Design/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" />
     <link href="../Design/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
     <script src="../Design/bootstrap-3.3.6-dist/js/jquery.min.js"></script>
@@ -35,30 +36,30 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul class="multi-column-dropdown">
-                                            <li><a href="PhoneSamSung.aspx">Sam Sung</a></li>
-                                            <li><a href="#">Apple</a></li>
-                                            <li><a href="#">Sony</a></li>
-                                            <li><a href="#">Nokia</a></li>
-                                            <li><a href="#">Oppo </a></li>
-                                            <li><a href="#">HTC</a></li>
-                                            <li><a href="#">Viettel</a></li>
-                                            <li><a href="#">Asus</a></li>
-                                            <li><a href="#">Lenovo </a></li>
-                                            <li><a href="#">LG </a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Samsung">Sam Sung</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Apple">Apple</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Sony">Sony</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Nokia">Nokia</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Oppo">Oppo</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=HTC">HTC</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Viettel">Viettel</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Asus">Asus</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Lenovo">Lenovo</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=LG">LG</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-6">
                                         <ul class="multi-column-dropdown">
-                                            <li><a href="#">Microsoft</a></li>
-                                            <li><a href="#">Vivo</a></li>
-                                            <li><a href="#">MobiiStar</a></li>
-                                            <li><a href="#">WingCall</a></li>
-                                            <li><a href="#">Archos </a></li>
-                                            <li><a href="#">Philips</a></li>
-                                            <li><a href="#">XPhone</a></li>
-                                            <li><a href="#">Mastel</a></li>
-                                            <li><a href="#">Huawei </a></li>
-                                            <li><a href="#">Massgo </a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Microsoft">Microsoft</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Vivo">Vivo</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=MobiiStar">MobiiStar</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=WingPhone">WingPhone</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Archos">Archos</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Philips">Philips</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=XPhone">XPhone</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Mastel">Mastel</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Huawei">Huawei</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Massgo">Massgo</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -249,7 +250,9 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
                 </div>
                 <div class="col-md-3">
                     <div class="panel panel-default">

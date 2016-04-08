@@ -30,3 +30,13 @@ D:\web\ASP .NET\btl\Sunflower 3\Sunflower\bin\BUS.dll
 D:\web\ASP .NET\btl\Sunflower 3\Sunflower\bin\DAL.dll
 D:\web\ASP .NET\btl\Sunflower 3\Sunflower\bin\BUS.pdb
 D:\web\ASP .NET\btl\Sunflower 3\Sunflower\bin\DAL.pdb
+D:\LapTrinhWindow2\moi\Sunflower\bin\Sunflower.dll.config
+D:\LapTrinhWindow2\moi\Sunflower\bin\Sunflower.dll
+D:\LapTrinhWindow2\moi\Sunflower\bin\Sunflower.pdb
+D:\LapTrinhWindow2\moi\Sunflower\bin\BUS.dll
+D:\LapTrinhWindow2\moi\Sunflower\bin\DAL.dll
+D:\LapTrinhWindow2\moi\Sunflower\bin\BUS.pdb
+D:\LapTrinhWindow2\moi\Sunflower\bin\DAL.pdb
+D:\LapTrinhWindow2\moi\Sunflower\obj\Debug\Sunflower.csprojResolveAssemblyReference.cache
+D:\LapTrinhWindow2\moi\Sunflower\obj\Debug\Sunflower.dll
+D:\LapTrinhWindow2\moi\Sunflower\obj\Debug\Sunflower.pdb

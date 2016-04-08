@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Admin\InforMobile.aspx" />
     <Content Include="Admin\MobilePage.aspx" />
+    <Content Include="ChiTietPhone\PhonePage.aspx" />
     <Content Include="Design\bootstrap-3.3.6-dist\js\jquery.min.js" />
     <Content Include="Design\bootstrap-3.3.6-dist\css\bootstrap-theme.css.map" />
     <Content Include="Design\bootstrap-3.3.6-dist\css\bootstrap-theme.min.css.map" />
@@ -69,6 +70,7 @@
     <Content Include="Design\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Design\bootstrap-3.3.6-dist\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Admin\admin.Master" />
+    <Content Include="Design\Css\PhoneList.css" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -83,8 +85,7 @@
     <Content Include="Resource\ImgMobile\Note5-3.png" />
     <Content Include="Resource\ImgMobile\Note5-4.png" />
     <Content Include="Resource\ImgMobile\samsung-galaxy-note-5-01.jpg" />
-    <Content Include="Trang chủ\Trangchu.aspx" />
-    <Content Include="ChiTietPhone\PhoneSamSung.Master" />
+    <Content Include="ChiTietPhone\PhonePage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -149,6 +150,168 @@
     <Content Include="picture\ttuc1.jpg" />
     <Content Include="picture\ttuc2.jpg" />
     <Content Include="picture\ttuc3.jpg" />
+    <Content Include="Resource\ImgPrimary\ac1.png" />
+    <Content Include="Resource\ImgPrimary\ac2.png" />
+    <Content Include="Resource\ImgPrimary\ac3.png" />
+    <Content Include="Resource\ImgPrimary\ap1.png" />
+    <Content Include="Resource\ImgPrimary\ap2.png" />
+    <Content Include="Resource\ImgPrimary\ap3.png" />
+    <Content Include="Resource\ImgPrimary\ap4.png" />
+    <Content Include="Resource\ImgPrimary\ap5.png" />
+    <Content Include="Resource\ImgPrimary\ap6.png" />
+    <Content Include="Resource\ImgPrimary\ap7.png" />
+    <Content Include="Resource\ImgPrimary\ap8.png" />
+    <Content Include="Resource\ImgPrimary\ap9.png" />
+    <Content Include="Resource\ImgPrimary\as1.jpg" />
+    <Content Include="Resource\ImgPrimary\as2.jpg" />
+    <Content Include="Resource\ImgPrimary\as3.jpg" />
+    <Content Include="Resource\ImgPrimary\as4.jpg" />
+    <Content Include="Resource\ImgPrimary\as5.jpg" />
+    <Content Include="Resource\ImgPrimary\as6.jpg" />
+    <Content Include="Resource\ImgPrimary\h1.jpg" />
+    <Content Include="Resource\ImgPrimary\h2.png" />
+    <Content Include="Resource\ImgPrimary\h3.jpg" />
+    <Content Include="Resource\ImgPrimary\htc1.jpg" />
+    <Content Include="Resource\ImgPrimary\htc10.png" />
+    <Content Include="Resource\ImgPrimary\htc11.png" />
+    <Content Include="Resource\ImgPrimary\htc12.png" />
+    <Content Include="Resource\ImgPrimary\htc13.png" />
+    <Content Include="Resource\ImgPrimary\htc14.png" />
+    <Content Include="Resource\ImgPrimary\htc2.png" />
+    <Content Include="Resource\ImgPrimary\htc3.jpg" />
+    <Content Include="Resource\ImgPrimary\htc4.jpg" />
+    <Content Include="Resource\ImgPrimary\htc5.png" />
+    <Content Include="Resource\ImgPrimary\htc6.jpg" />
+    <Content Include="Resource\ImgPrimary\htc7.png" />
+    <Content Include="Resource\ImgPrimary\htc8.jpg" />
+    <Content Include="Resource\ImgPrimary\htc9.jpg" />
+    <Content Include="Resource\ImgPrimary\lg1.jpg" />
+    <Content Include="Resource\ImgPrimary\lg2.jpg" />
+    <Content Include="Resource\ImgPrimary\lg3.jpg" />
+    <Content Include="Resource\ImgPrimary\lv1.jpg" />
+    <Content Include="Resource\ImgPrimary\lv10.png" />
+    <Content Include="Resource\ImgPrimary\lv11.png" />
+    <Content Include="Resource\ImgPrimary\lv12.jpg" />
+    <Content Include="Resource\ImgPrimary\lv2.jpg" />
+    <Content Include="Resource\ImgPrimary\lv3.jpg" />
+    <Content Include="Resource\ImgPrimary\lv4.jpg" />
+    <Content Include="Resource\ImgPrimary\lv5.png" />
+    <Content Include="Resource\ImgPrimary\lv6.jpg" />
+    <Content Include="Resource\ImgPrimary\lv7.png" />
+    <Content Include="Resource\ImgPrimary\lv8.png" />
+    <Content Include="Resource\ImgPrimary\lv9.png" />
+    <Content Include="Resource\ImgPrimary\m1.jpg" />
+    <Content Include="Resource\ImgPrimary\m2.png" />
+    <Content Include="Resource\ImgPrimary\m3.png" />
+    <Content Include="Resource\ImgPrimary\ma1.png" />
+    <Content Include="Resource\ImgPrimary\ma2.JPG" />
+    <Content Include="Resource\ImgPrimary\ma3.jpg" />
+    <Content Include="Resource\ImgPrimary\mb1.jpg" />
+    <Content Include="Resource\ImgPrimary\mb2.png" />
+    <Content Include="Resource\ImgPrimary\mb3.png" />
+    <Content Include="Resource\ImgPrimary\mc1.png" />
+    <Content Include="Resource\ImgPrimary\mc2.jpg" />
+    <Content Include="Resource\ImgPrimary\mc3.jpg" />
+    <Content Include="Resource\ImgPrimary\mc4.jpg" />
+    <Content Include="Resource\ImgPrimary\mc5.jpg" />
+    <Content Include="Resource\ImgPrimary\mc6.png" />
+    <Content Include="Resource\ImgPrimary\mc7.png" />
+    <Content Include="Resource\ImgPrimary\nokia1.png" />
+    <Content Include="Resource\ImgPrimary\nokia10.png" />
+    <Content Include="Resource\ImgPrimary\nokia11.jpg" />
+    <Content Include="Resource\ImgPrimary\nokia12.jpg" />
+    <Content Include="Resource\ImgPrimary\nokia13.jpg" />
+    <Content Include="Resource\ImgPrimary\nokia2.jpg" />
+    <Content Include="Resource\ImgPrimary\nokia3.jpg" />
+    <Content Include="Resource\ImgPrimary\nokia4.png" />
+    <Content Include="Resource\ImgPrimary\nokia5.jpg" />
+    <Content Include="Resource\ImgPrimary\nokia6.jpg" />
+    <Content Include="Resource\ImgPrimary\nokia7.jpg" />
+    <Content Include="Resource\ImgPrimary\nokia8.png" />
+    <Content Include="Resource\ImgPrimary\nokia9.jpg" />
+    <Content Include="Resource\ImgPrimary\oppo1.png" />
+    <Content Include="Resource\ImgPrimary\oppo10.png" />
+    <Content Include="Resource\ImgPrimary\oppo11.png" />
+    <Content Include="Resource\ImgPrimary\oppo12.jpg" />
+    <Content Include="Resource\ImgPrimary\oppo13.jpg" />
+    <Content Include="Resource\ImgPrimary\oppo14.jpg" />
+    <Content Include="Resource\ImgPrimary\oppo15.jpg" />
+    <Content Include="Resource\ImgPrimary\oppo16.png" />
+    <Content Include="Resource\ImgPrimary\oppo17.png" />
+    <Content Include="Resource\ImgPrimary\oppo18.jpg" />
+    <Content Include="Resource\ImgPrimary\oppo2.jpg" />
+    <Content Include="Resource\ImgPrimary\oppo3.jpg" />
+    <Content Include="Resource\ImgPrimary\oppo4.png" />
+    <Content Include="Resource\ImgPrimary\oppo5.png" />
+    <Content Include="Resource\ImgPrimary\oppo6.png" />
+    <Content Include="Resource\ImgPrimary\oppo7.jpg" />
+    <Content Include="Resource\ImgPrimary\oppo8.jpg" />
+    <Content Include="Resource\ImgPrimary\oppo9.png" />
+    <Content Include="Resource\ImgPrimary\p1.jpg" />
+    <Content Include="Resource\ImgPrimary\p2.png" />
+    <Content Include="Resource\ImgPrimary\p3.jpg" />
+    <Content Include="Resource\ImgPrimary\sony1.jpg" />
+    <Content Include="Resource\ImgPrimary\sony10.png" />
+    <Content Include="Resource\ImgPrimary\sony11.png" />
+    <Content Include="Resource\ImgPrimary\sony12.png" />
+    <Content Include="Resource\ImgPrimary\sony13.png" />
+    <Content Include="Resource\ImgPrimary\sony14.png" />
+    <Content Include="Resource\ImgPrimary\sony15.png" />
+    <Content Include="Resource\ImgPrimary\sony16.jpg" />
+    <Content Include="Resource\ImgPrimary\sony2.png" />
+    <Content Include="Resource\ImgPrimary\sony3.png" />
+    <Content Include="Resource\ImgPrimary\sony4.jpg" />
+    <Content Include="Resource\ImgPrimary\sony5.png" />
+    <Content Include="Resource\ImgPrimary\sony6.png" />
+    <Content Include="Resource\ImgPrimary\sony7.jpg" />
+    <Content Include="Resource\ImgPrimary\sony8.png" />
+    <Content Include="Resource\ImgPrimary\sony9.png" />
+    <Content Include="Resource\ImgPrimary\ss1.png" />
+    <Content Include="Resource\ImgPrimary\ss10.jpg" />
+    <Content Include="Resource\ImgPrimary\ss11.png" />
+    <Content Include="Resource\ImgPrimary\ss12.png" />
+    <Content Include="Resource\ImgPrimary\ss13.jpg" />
+    <Content Include="Resource\ImgPrimary\ss14.jpg" />
+    <Content Include="Resource\ImgPrimary\ss15.jpg" />
+    <Content Include="Resource\ImgPrimary\ss16.png" />
+    <Content Include="Resource\ImgPrimary\ss17.png" />
+    <Content Include="Resource\ImgPrimary\ss18.jpg" />
+    <Content Include="Resource\ImgPrimary\ss19.png" />
+    <Content Include="Resource\ImgPrimary\ss2.jpg" />
+    <Content Include="Resource\ImgPrimary\ss20.jpg" />
+    <Content Include="Resource\ImgPrimary\ss21.png" />
+    <Content Include="Resource\ImgPrimary\ss22.png" />
+    <Content Include="Resource\ImgPrimary\ss23.png" />
+    <Content Include="Resource\ImgPrimary\ss24.jpg" />
+    <Content Include="Resource\ImgPrimary\ss25.png" />
+    <Content Include="Resource\ImgPrimary\ss3.jpg" />
+    <Content Include="Resource\ImgPrimary\ss4.jpg" />
+    <Content Include="Resource\ImgPrimary\ss5.png" />
+    <Content Include="Resource\ImgPrimary\ss6.png" />
+    <Content Include="Resource\ImgPrimary\ss7.jpg" />
+    <Content Include="Resource\ImgPrimary\ss8.jpg" />
+    <Content Include="Resource\ImgPrimary\ss9.jpg" />
+    <Content Include="Resource\ImgPrimary\vivo1.png" />
+    <Content Include="Resource\ImgPrimary\vivo2.png" />
+    <Content Include="Resource\ImgPrimary\vivo3.png" />
+    <Content Include="Resource\ImgPrimary\vivo4.png" />
+    <Content Include="Resource\ImgPrimary\vt1.png" />
+    <Content Include="Resource\ImgPrimary\vt10.jpg" />
+    <Content Include="Resource\ImgPrimary\vt2.jpg" />
+    <Content Include="Resource\ImgPrimary\vt3.jpg" />
+    <Content Include="Resource\ImgPrimary\vt4.jpg" />
+    <Content Include="Resource\ImgPrimary\vt5.jpg" />
+    <Content Include="Resource\ImgPrimary\vt6.png" />
+    <Content Include="Resource\ImgPrimary\vt7.jpg" />
+    <Content Include="Resource\ImgPrimary\vt8.jpg" />
+    <Content Include="Resource\ImgPrimary\vt9.jpg" />
+    <Content Include="Resource\ImgPrimary\wc1.jpg" />
+    <Content Include="Resource\ImgPrimary\wc2.jpg" />
+    <Content Include="Resource\ImgPrimary\wc3.jpg" />
+    <Content Include="Resource\ImgPrimary\wc4.jpg" />
+    <Content Include="Resource\ImgPrimary\x1.png" />
+    <Content Include="Resource\ImgPrimary\x2.png" />
+    <Content Include="Resource\ImgPrimary\x3.png" />
     <Content Include="Resource\imgTrangChu\admin.png" />
     <Content Include="Resource\imgTrangChu\anh1.png" />
     <Content Include="Resource\imgTrangChu\anh2.png" />
@@ -196,9 +359,7 @@
     <Content Include="Resource\Admin icon\img-mobile-error.png" />
     <Content Include="Resource\Admin icon\preview.png" />
     <Content Include="Resource\Admin icon\Support.png" />
-    <Content Include="Resource\ImgPrimary\Samsung Galaxy J5.jpeg" />
-    <Content Include="Resource\ImgPrimary\Samsung Galaxy Note 5.png" />
-    <Content Include="Resource\ImgPrimary\Samsung Galaxy S6 G920F.jpeg" />
+    <Content Include="Trang chủ\Trangchu.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -223,12 +384,19 @@
     <Compile Include="Admin\MobilePage.aspx.designer.cs">
       <DependentUpon>MobilePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ChiTietPhone\PhoneSamSung.Master.cs">
-      <DependentUpon>PhoneSamSung.Master</DependentUpon>
+    <Compile Include="ChiTietPhone\PhonePage.aspx.cs">
+      <DependentUpon>PhonePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ChiTietPhone\PhoneSamSung.Master.designer.cs">
-      <DependentUpon>PhoneSamSung.Master</DependentUpon>
+    <Compile Include="ChiTietPhone\PhonePage.aspx.designer.cs">
+      <DependentUpon>PhonePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietPhone\PhonePage.Master.cs">
+      <DependentUpon>PhonePage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChiTietPhone\PhonePage.Master.designer.cs">
+      <DependentUpon>PhonePage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trang chủ\Trangchu.aspx.cs">

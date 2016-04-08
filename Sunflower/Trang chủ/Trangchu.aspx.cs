@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data;
+using System.Data.SqlClient;
+using BUS;
 
 namespace Sunflower.Trang_chủ
 {
@@ -11,7 +14,12 @@ namespace Sunflower.Trang_chủ
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+          
+        }
 
+        protected void DataList1_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+           
         }
     }
 }

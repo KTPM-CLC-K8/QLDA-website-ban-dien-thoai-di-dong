@@ -6,6 +6,7 @@
 <head runat="server">
     <title></title>
     <link href="../Design/Css/trangchu.css" rel="stylesheet" />
+    <link href="../Design/Css/PhoneTrangchu.css" rel="stylesheet" />
     <link href="../Design/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" />
     <link href="../Design/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
     <script src="../Design/bootstrap-3.3.6-dist/js/jquery.min.js"></script>
@@ -35,30 +36,30 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <ul class="multi-column-dropdown">
-                                            <li><a href="../ChiTietPhone/PhoneSamSung.aspx">Sam Sung</a></li>
-                                            <li><a href="#">Apple</a></li>
-                                            <li><a href="#">Sony</a></li>
-                                            <li><a href="#">Nokia</a></li>
-                                            <li><a href="#">Oppo </a></li>
-                                            <li><a href="#">HTC</a></li>
-                                            <li><a href="#">Viettel</a></li>
-                                            <li><a href="#">Asus</a></li>
-                                            <li><a href="#">Lenovo </a></li>
-                                            <li><a href="#">LG </a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Samsung">Sam Sung</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Apple">Apple</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Sony">Sony</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Nokia">Nokia</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Oppo">Oppo</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=HTC">HTC</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Viettel">Viettel</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Asus">Asus</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Lenovo">Lenovo</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=LG">LG</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-sm-6">
                                         <ul class="multi-column-dropdown">
-                                            <li><a href="#">Microsoft</a></li>
-                                            <li><a href="#">Vivo</a></li>
-                                            <li><a href="#">MobiiStar</a></li>
-                                            <li><a href="#">WingCall</a></li>
-                                            <li><a href="#">Archos </a></li>
-                                            <li><a href="#">Philips</a></li>
-                                            <li><a href="#">XPhone</a></li>
-                                            <li><a href="#">Mastel</a></li>
-                                            <li><a href="#">Huawei </a></li>
-                                            <li><a href="#">Massgo </a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Microsoft">Microsoft</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Vivo">Vivo</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=MobiiStar">MobiiStar</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=WingPhone">WingPhone</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Archos">Archos</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Philips">Philips</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=XPhone">XPhone</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Mastel">Mastel</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Huawei">Huawei</a></li>
+                                            <li><a href="../ChiTietPhone/PhonePage.aspx?mobile=Massgo">Massgo</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -298,50 +299,18 @@
                         <hr />
                     </div>
                     <div class="row">
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh1.png" />
-                            Microsoft Lumia 950 XL<br />
-                            <label>15.989.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh2.png" />
-                            iPhone 6s Plus 16GB (Bản Quốc tế)<br />
-                            <label>19.790.000 ₫ </label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh3.jpg" />
-                            Samsung Galaxy Note 4<br />
-                            <label>10.489.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh4.jpg" />
-                            Samsung Galaxy S6 G920F<br />
-                            <label>14.490.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh5.jpg" />
-                            Samsung Galaxy V Plus G318<br />
-                            <label>1.589.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh6.png" />
-                            iPhone 6s Plus 128GB (Bản Quốc tế)<br />
-                            <label>27.490.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh7.png" />
-                            iPhone 6s Plus 64GB (Bản Quốc tế)<br />
-                            <label>22.690.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh8.png" />
-                            iPhone 6s 16GB (Bản Quốc tế)<br />
-                            <label>17.390.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh9.png" />
-                            Oppo F1<br />
-                            <label>5.990.000 ₫</label>
+                        <div class="col-md-4">
+                            <asp:DataList ID="DataListPhoneHot" runat="server" RepeatColumns="3" OnSelectedIndexChanged="DataList1_SelectedIndexChanged1">
+                                <ItemTemplate>
+                                    <a href="#">
+                                    <asp:Image ID="anhLabel" runat="server" ImageUrl='<%# "~/Resource/imgTrangChu/" + Eval("Image") %>' /></a>
+                                    <br />
+                                    <asp:Label ID="NameLabel" runat="server" Text='<%# Eval("Name") %>' />
+                                    <br />
+                                    <asp:Label ID="PriceLabel" runat="server" Text='<%# Eval("Price", "{0:C}") %> ' />
+                                    <br />
+                                </ItemTemplate>
+                            </asp:DataList>
                         </div>
                     </div>
                     <br />
@@ -350,35 +319,18 @@
                         <hr />
                     </div>
                     <div class="row">
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh1.png" />
-                            Microsoft Lumia 950 XL<br />
-                            <label>15.989.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh2.png" />
-                            iPhone 6s Plus 16GB (Bản Quốc tế)<br />
-                            <label>19.790.000 ₫ </label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh3.jpg" />
-                            Samsung Galaxy Note 4<br />
-                            <label>10.489.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh4.jpg" />
-                            Samsung Galaxy S6 G920F<br />
-                            <label>14.490.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh5.jpg" />
-                            Samsung Galaxy V Plus G318<br />
-                            <label>1.589.000 ₫</label>
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="../Resource/imgTrangChu/anh6.png" />
-                            iPhone 6s Plus 128GB (Bản Quốc tế)<br />
-                            <label>27.490.000 ₫</label>
+                        <div class="col-md-4">
+                            <asp:DataList ID="DataListPhoneMoi" runat="server" RepeatColumns="3" OnSelectedIndexChanged="DataList1_SelectedIndexChanged1">
+                                <ItemTemplate>
+                                    <a href="#">
+                                        <asp:Image ID="anhLabel" runat="server" ImageUrl='<%# "~/Resource/imgTrangChu/" + Eval("Image") %>' /></a>
+                                    <br />
+                                    <asp:Label ID="NameLabel" runat="server" Text='<%# Eval("Name") %>' />
+                                    <br />
+                                    <asp:Label ID="PriceLabel" runat="server" Text='<%# Eval("Price") %>' />
+                                    <br />
+                                </ItemTemplate>
+                            </asp:DataList>
                         </div>
                     </div>
                     <br />
@@ -386,7 +338,7 @@
                         <h4>PHỤ KIỆN</h4>
                         <hr />
                     </div>
-                    <div class="row">
+                    <%--  <div class="row">
                         <div class="col-sm-4">
                             <img src="../Resource/imgTrangChu/pk1.jpg" />
                             Sạc nhanh Samsung Galaxy Note 5<br />
@@ -416,6 +368,20 @@
                             <img src="../Resource/imgTrangChu/pk6.jpg" />
                             Bao da Baseus Terse iPhone 6/ 6s<br />
                             <label>260.000 ₫</label>
+                        </div>
+                    </div>--%>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <asp:DataList ID="DataListPhuKien" runat="server" RepeatColumns="3" OnSelectedIndexChanged="DataList1_SelectedIndexChanged1">
+                                <ItemTemplate>
+                                    <asp:Image ID="anhLabel" runat="server" ImageUrl='<%# "~/Resource/imgTrangChu/" + Eval("Image") %>' />
+                                    <br />
+                                    <asp:Label ID="NameLabel" runat="server" Text='<%# Eval("Name") %>' />
+                                    <br />
+                                    <asp:Label ID="PriceLabel" runat="server" Text='<%# Eval("Price") %>' />
+                                    <br />
+                                </ItemTemplate>
+                            </asp:DataList>
                         </div>
                     </div>
                 </div>
