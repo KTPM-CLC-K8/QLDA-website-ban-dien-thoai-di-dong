@@ -22,5 +22,9 @@ namespace BUS
         {
             return Mobile_DAL.getMobileFromCompany(company);
         }
+        public static DataTable getPhuKien(string tab_table)
+        {
+            return Mobile_DAL.getPhuKien(tab_table);
+        }
     }
 }

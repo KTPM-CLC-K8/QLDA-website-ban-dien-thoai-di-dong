@@ -71,13 +71,12 @@
                                 PHỤ KIỆN
                           <span class="caret"></span></a>
                             <ul class="dropdown-menu phukien" id="phukien">
-                                <li><a href="#">Thẻ nhớ</a></li>
-                                <li><a href="#">Bao da/Ốp lưng</a></li>
-                                <li><a href="#">Pin dự phòng</a></li>
-                                <li><a href="#">Tai nghe</a></li>
-                                <li><a href="#">Tấm dán</a></li>
-                                <li><a href="#">Cáp/Sạc</a></li>
-                                <li><a href="#">Loa</a></li>
+                                <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_MemoryCard">Thẻ nhớ</a></li>
+                                <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_Holster">Bao da/Ốp lưng</a></li>
+                                <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_PinPortable">Pin dự phòng</a></li>
+                                <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_Headphone">Tai nghe</a></li>
+                                <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_Adapter">Cáp/Sạc</a></li>
+                                <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_Speaker">Loa</a></li>
                             </ul>
                         </li>
                         <li><a href="#">
@@ -303,7 +302,7 @@
                             <asp:DataList ID="DataListPhoneHot" runat="server" RepeatColumns="3" OnSelectedIndexChanged="DataList1_SelectedIndexChanged1">
                                 <ItemTemplate>
                                     <a href="#">
-                                    <asp:Image ID="anhLabel" runat="server" ImageUrl='<%# "~/Resource/imgTrangChu/" + Eval("Image") %>' /></a>
+                                    <asp:Image ID="anhLabel" runat="server" ImageUrl='<%#Eval("Image") %>' /></a>
                                     <br />
                                     <asp:Label ID="NameLabel" runat="server" Text='<%# Eval("Name") %>' />
                                     <br />

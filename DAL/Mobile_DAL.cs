@@ -75,6 +75,18 @@ namespace DAL
             closeConnection();
             return dt;
         }
+        public static DataTable getPhuKien(string tab_table)
+        {
+
+            openConnection();
+            string cm = "SELECT * FROM " + tab_table;
+            SqlCommand scm = new SqlCommand(cm, cn);
+            SqlDataReader res = scm.ExecuteReader();
+            DataTable dt = new DataTable();
+            dt.Load(res);
+            closeConnection();
+            return dt;
+        }
 
     }
 }

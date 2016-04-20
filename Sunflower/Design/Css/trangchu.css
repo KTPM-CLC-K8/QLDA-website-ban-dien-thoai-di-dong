@@ -98,6 +98,7 @@ footer {
 
 .dropdown-menu li {
     text-align: center;
+    margin-left:0px;
 }
 
 .panel-title {
@@ -109,7 +110,7 @@ footer {
 }
 
 #tkchung {
-    width: 228px;
+    width: 100%;
 }
 
 #DropDownListChonHang {

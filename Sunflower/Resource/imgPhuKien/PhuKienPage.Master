@@ -1,11 +1,11 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PhonePage.master.cs" Inherits="Sunflower.ChiTietPhone.PhonePage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PhuKienPage.master.cs" Inherits="Sunflower.ChiTietPhuKien.PhuKienPage" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="../Design/Css/trangchu.css" rel="stylesheet" />
+     <link href="../Design/Css/trangchu.css" rel="stylesheet" />
     <link href="../Design/Css/PhoneList.css" rel="stylesheet" />
     <link href="../Design/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" />
     <link href="../Design/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" rel="stylesheet" />
@@ -13,7 +13,7 @@
     <script src="../Design/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <form id="form1" runat="server">
+   <form id="form1" runat="server">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -71,12 +71,13 @@
                                 PHỤ KIỆN
                           <span class="caret"></span></a>
                             <ul class="dropdown-menu phukien" id="phukien">
-                                  <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_MemoryCard">Thẻ nhớ</a></li>
-                                <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_Holster">Bao da/Ốp lưng</a></li>
-                                <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_PinPortable">Pin dự phòng</a></li>
-                                <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_Headphone">Tai nghe</a></li>
-                                <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_Adapter">Cáp/Sạc</a></li>
-                                <li><a href="../ChiTietPhone/PhuKienPage.aspx?table=tab_Speaker">Loa</a></li>
+                                <li><a href="../ChiTietPhuKien/PhuKienPage.aspx?table=tab_MemoryCard">Thẻ nhớ</a></li>
+                                <li><a href="../ChiTietPhuKien/PhuKienPage.aspx?table=tab_Holster">Bao da/Ốp lưng</a></li>
+                                <li><a href="../ChiTietPhuKien/PhuKienPage.aspx?table=tab_PinPortable">Pin dự phòng</a></li>
+                                <li><a href="../ChiTietPhuKien/PhuKienPage.aspx?table=tab_Headphone">Tai nghe</a></li>
+                                <li><a href="#">Tấm dán</a></li>
+                                <li><a href="#">Cáp/Sạc</a></li>
+                                <li><a href="#">Loa</a></li>
                             </ul>
                         </li>
                         <li><a href="#">
